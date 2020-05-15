@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Github\\Unreal_Automation_Scripts\\AutomationScripts\\Source\\AutomationScripts\\AutomationScripts.Build.cs",
+		"E:\\Github\\Unreal_Automation_Scripts\\AutomationScripts\\Source\\AutomationScripts.Target.cs",
+		"E:\\Github\\Unreal_Automation_Scripts\\AutomationScripts\\Source\\AutomationScriptsEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

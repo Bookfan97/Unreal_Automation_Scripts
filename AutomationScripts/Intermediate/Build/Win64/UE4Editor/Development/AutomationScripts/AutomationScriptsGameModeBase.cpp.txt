@@ -1,0 +1,7 @@
+E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\Definitions.AutomationScripts.h
+E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\AutomationScriptsGameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Inc\AutomationScripts\AutomationScriptsGameModeBase.generated.h
