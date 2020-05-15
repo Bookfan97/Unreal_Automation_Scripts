@@ -16,7 +16,10 @@ class AUTOMATIONSCRIPTS_API UMyAssetActionUtility : public UAssetActionUtility
 public:
 	UFUNCTION(CallInEditor)
 		void RenameSelectedAssets(FString SearchPattern, FString ReplacePattern, ESearchCase::Type SearchCase);
+	UFUNCTION(CallInEditor)
+		void CheckPowerOfTwo();
 private:
 	void PrintToScreen(FString Message, FColor Color);
 	void GiveFeedback(FString Method, uint32 Counter);
+	bool IsPowerOfTwo(int32 NumberToCheck);
 };

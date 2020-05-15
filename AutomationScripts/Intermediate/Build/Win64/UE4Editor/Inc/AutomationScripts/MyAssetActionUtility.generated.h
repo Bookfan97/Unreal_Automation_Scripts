@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_SPARSE_DATA
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execCheckPowerOfTwo) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CheckPowerOfTwo(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execRenameSelectedAssets) \
 	{ \
 		P_GET_PROPERTY(UStrProperty,Z_Param_SearchPattern); \
@@ -29,6 +37,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCheckPowerOfTwo) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CheckPowerOfTwo(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execRenameSelectedAssets) \
 	{ \

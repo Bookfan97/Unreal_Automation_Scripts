@@ -673,3 +673,43 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.15-03.40.59:987][109]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3037 classes and 728 folders.
 [2020.05.15-03.40.59:990][109]Display: HotReload took  0.2s.
 [2020.05.15-03.41.11:862][ 37]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.15-04.11.24:050][ 21]LogHotReload: New module detected: UE4Editor-AutomationScripts-0008.dll
+[2020.05.15-04.11.24:737][ 24]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.15-04.11.24:780][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.05.15-04.11.24:793][ 24]LogClass: Could not find existing class MyAssetActionUtility in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.15-04.11.24:793][ 24]LogClass: Function CheckPowerOfTwo is new.
+[2020.05.15-04.11.24:793][ 24]LogClass: Function RenameSelectedAssets is new.
+[2020.05.15-04.11.24:795][ 24]LogHotReload: Re-instancing MyAssetActionUtility after hot-reload.
+[2020.05.15-04.11.24:862][ 24]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.05.15-04.11.24:865][ 24]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.15-04.11.24:911][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.05.15-04.11.24:921][ 24]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3037 classes and 728 folders.
+[2020.05.15-04.11.24:924][ 24]Display: HotReload took  0.2s.
+[2020.05.15-04.13.24:731][450]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.05.15-04.13.29:376][450]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.15-04.13.51:233][623]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.05.15-04.14.07:663][623]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.15-04.14.16:702][ 76]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.15-04.14.16:781][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.05.15-04.14.16:781][ 77]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.027
+[2020.05.15-04.14.16:782][ 77]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BugFix] ([1] browsable assets)...
+[2020.05.15-04.14.16:782][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/BugFix]
+[2020.05.15-04.14.16:782][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BugFix" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/BugFix_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.05.15-04.14.16:827][ 77]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/BugFix_Auto117788A7649C6B878A808A39D12381350.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/BugFix_Auto1.uasset'
+[2020.05.15-04.14.16:828][ 77]LogFileHelpers: Auto-saving content packages took 0.047
+[2020.05.15-04.14.21:333][261]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BugFix.BugFix
+[2020.05.15-04.14.21:518][261]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.05.15-04.14.23:890][475]LogSlate: Window 'BugFix' being destroyed
+[2020.05.15-04.14.23:894][475]LogSlate: Window 'BugFix' being destroyed
+[2020.05.15-04.14.23:902][475]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.05.15-04.14.23:902][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.15-04.14.24:828][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BugFix" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BugFix.uasset" SILENT=true
+[2020.05.15-04.14.24:834][580]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/BugFixC3BBA0434007C2B96AF7DBA039FACB13.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BugFix.uasset'
+[2020.05.15-04.14.24:848][580]AssetCheck: New page: Asset Save: BugFix
+[2020.05.15-04.14.24:848][580]LogContentValidation: Display: Validating Blueprint /Game/BugFix.BugFix
+[2020.05.15-04.14.35:527][812]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.05.15-04.14.40:682][812]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.15-04.15.10:510][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityBlueprint.uasset" SILENT=true
+[2020.05.15-04.15.10:516][ 84]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityBlueprint4AD24E6746D558FADD351ABA5A0F7775.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityBlueprint.uasset'
+[2020.05.15-04.15.10:531][ 84]AssetCheck: New page: Asset Save: NewEditorUtilityBlueprint
+[2020.05.15-04.15.10:531][ 84]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/NewEditorUtilityBlueprint.NewEditorUtilityBlueprint
