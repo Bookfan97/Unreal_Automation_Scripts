@@ -1,17 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_Automation_Scripts).
-  Parsing headers for AutomationScriptsEditor
-    Running UnrealHeaderTool "E:\Github\Unreal_Automation_Scripts\AutomationScripts\AutomationScripts.uproject" "E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\AutomationScriptsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for AutomationScriptsEditor in 4.4975694 seconds
   Building AutomationScriptsEditor...
   Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 16 processes...
-    [1/6] AutomationScripts.init.gen.cpp
-    [2/6] MyAssetActionUtility.gen.cpp
-    [3/6] MyAssetActionUtility.cpp
-    [4/6] UE4Editor-AutomationScripts-0008.lib
-       Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0008.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0008.exp
-    [5/6] UE4Editor-AutomationScripts-0008.dll
-       Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0008.suppressed.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0008.suppressed.exp
-    [6/6] AutomationScriptsEditor.target
-  Total time in Parallel executor: 3.19 seconds
-  Total execution time: 8.36 seconds
+  Building 4 actions with 16 processes...
+    [1/4] MyAssetActionUtility.cpp
+    [2/4] UE4Editor-AutomationScripts-0011.lib
+       Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0011.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0011.exp
+    [3/4] UE4Editor-AutomationScripts-0011.dll
+       Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0011.suppressed.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-0011.suppressed.exp
+    [4/4] AutomationScriptsEditor.target
+  Total time in Parallel executor: 3.50 seconds
+  Total execution time: 4.15 seconds

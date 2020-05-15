@@ -13,8 +13,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AUTOMATIONSCRIPTS_MyAssetActionUtility_generated_h
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_SPARSE_DATA
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_RPC_WRAPPERS \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_SPARSE_DATA
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddPrefixes) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddPrefixes(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execCheckPowerOfTwo) \
 	{ \
@@ -36,7 +44,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddPrefixes) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddPrefixes(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execCheckPowerOfTwo) \
 	{ \
@@ -58,7 +74,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_INCLASS_NO_PURE_DECLS \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyAssetActionUtility(); \
 	friend struct Z_Construct_UClass_UMyAssetActionUtility_Statics; \
@@ -67,7 +83,7 @@ public: \
 	DECLARE_SERIALIZER(UMyAssetActionUtility)
 
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_INCLASS \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyAssetActionUtility(); \
 	friend struct Z_Construct_UClass_UMyAssetActionUtility_Statics; \
@@ -76,7 +92,7 @@ public: \
 	DECLARE_SERIALIZER(UMyAssetActionUtility)
 
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_STANDARD_CONSTRUCTORS \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyAssetActionUtility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyAssetActionUtility) \
@@ -89,7 +105,7 @@ private: \
 public:
 
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_ENHANCED_CONSTRUCTORS \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyAssetActionUtility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -102,28 +118,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyAssetActionUtility); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyAssetActionUtility)
 
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_PRIVATE_PROPERTY_OFFSET
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_12_PROLOG
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_GENERATED_BODY_LEGACY \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_PRIVATE_PROPERTY_OFFSET
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_21_PROLOG
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_PRIVATE_PROPERTY_OFFSET \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_SPARSE_DATA \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_RPC_WRAPPERS \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_INCLASS \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_STANDARD_CONSTRUCTORS \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_PRIVATE_PROPERTY_OFFSET \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_SPARSE_DATA \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_INCLASS \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_GENERATED_BODY \
+#define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_PRIVATE_PROPERTY_OFFSET \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_SPARSE_DATA \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_INCLASS_NO_PURE_DECLS \
-	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_15_ENHANCED_CONSTRUCTORS \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_PRIVATE_PROPERTY_OFFSET \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_SPARSE_DATA \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_INCLASS_NO_PURE_DECLS \
+	AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

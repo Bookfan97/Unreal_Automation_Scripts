@@ -713,3 +713,103 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.15-04.15.10:516][ 84]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityBlueprint4AD24E6746D558FADD351ABA5A0F7775.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityBlueprint.uasset'
 [2020.05.15-04.15.10:531][ 84]AssetCheck: New page: Asset Save: NewEditorUtilityBlueprint
 [2020.05.15-04.15.10:531][ 84]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/NewEditorUtilityBlueprint.NewEditorUtilityBlueprint
+[2020.05.15-04.32.46:698][469]LogHotReload: New module detected: UE4Editor-AutomationScripts-0009.dll
+[2020.05.15-04.33.31:397][602]LogHotReload: New module detected: UE4Editor-AutomationScripts-0010.dll
+[2020.05.15-04.33.32:416][606]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.15-04.33.32:459][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.05.15-04.33.32:476][606]LogClass: Could not find existing class MyAssetActionUtility in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.15-04.33.32:476][606]LogClass: Function AddPrefixes is new.
+[2020.05.15-04.33.32:476][606]LogClass: Function CheckPowerOfTwo is new.
+[2020.05.15-04.33.32:477][606]LogClass: Function RenameSelectedAssets is new.
+[2020.05.15-04.33.32:482][606]LogHotReload: Re-instancing MyAssetActionUtility after hot-reload.
+[2020.05.15-04.33.32:599][606]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.05.15-04.33.32:604][606]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.15-04.33.32:665][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.05.15-04.33.32:677][606]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3037 classes and 728 folders.
+[2020.05.15-04.33.32:680][606]Display: HotReload took  0.3s.
+[2020.05.15-04.42.54:546][277]LogHotReload: New module detected: UE4Editor-AutomationScripts-0011.dll
+[2020.05.15-04.42.54:896][279]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.15-04.42.54:973][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.05.15-04.42.54:993][279]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.05.15-04.42.54:999][279]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.05.15-04.42.55:093][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.05.15-04.42.55:105][279]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3037 classes and 728 folders.
+[2020.05.15-04.42.55:108][279]Display: HotReload took  0.2s.
+[2020.05.15-04.43.03:272][756]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyAssetActionUtility.AddPrefixes
+
+[2020.05.15-04.43.03:973][756]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.702 s
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: 
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: Ensure condition failed: Prefix [File:E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyAssetActionUtility.cpp] [Line: 87]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: 
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: Stack: 
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa65e4a1e8 UE4Editor-AutomationScripts-0011.dll!<lambda_1675af027f6223ea5b147554f365e4a1>::operator()() [E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyAssetActionUtility.cpp:87]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa65e431c8 UE4Editor-AutomationScripts-0011.dll!UMyAssetActionUtility::AddPrefixes() [E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyAssetActionUtility.cpp:87]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa97eb42e8 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4907]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa98100148 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1912]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa750d163a UE4Editor-Blutility.dll!<lambda_2502c6b489eca5fb17b4898492b6ce27>::operator()() [d:\build\++ue4\sync\engine\source\editor\blutility\private\blutilitymenuextensions.cpp:324]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa750dd37d UE4Editor-Blutility.dll!TBaseFunctorDelegateInstance<void __cdecl(void),<lambda_2502c6b489eca5fb17b4898492b6ce27> >::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:1002]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa948825f2 UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:1068]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa94888430 UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:1019]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa94861b84 UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:293]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa948f1498 UE4Editor-Slate.dll!SButton::ExecuteOnClick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:385]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa94909281 UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:304]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa94889b95 UE4Editor-Slate.dll!SMenuEntryButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:386]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa9476323f UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_6c1f6b862bcfb82ea6dcab28fbcc9463> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:372]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa947e9175 UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4617]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa947d413e UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5140]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffa947c8f67 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5108]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffab2f84ca1 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1958]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffab2f7242f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2410]
+[2020.05.15-04.43.03:973][756]LogOutputDevice: Error: [Callstack] 0x00007ffab2f87195 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1638]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ffab2f6ec40 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:789]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ffb431ae338 USER32.dll!UnknownFunction []
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ffb431add79 USER32.dll!UnknownFunction []
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ffab2f88699 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ff7eb8c6db0 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4397]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ff7eb8dc3ec UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:173]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ff7eb8dc4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ff7eb8eceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ff7eb8efcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ffb42576fd4 KERNEL32.DLL!UnknownFunction []
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: [Callstack] 0x00007ffb4445cec1 ntdll.dll!UnknownFunction []
+[2020.05.15-04.43.03:974][756]LogOutputDevice: Error: 
+[2020.05.15-04.43.03:981][756]LogStats:                SubmitErrorReport -  0.000 s
+[2020.05.15-04.43.05:585][756]LogStats:                    SendNewReport -  1.604 s
+[2020.05.15-04.43.05:585][756]LogStats:             FDebug::EnsureFailed -  2.313 s
+[2020.05.15-04.43.05:665][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.05.15-04.43.05:666][756]LogMetaData: Removing '/Game/BP_BugFix.SKEL_BP_BugFix_C' ref from Metadata '/Game/BugFix.PackageMetaData'
+[2020.05.15-04.43.05:666][756]LogMetaData: Removing '/Game/BP_BugFix.BP_BugFix_C' ref from Metadata '/Game/BugFix.PackageMetaData'
+[2020.05.15-04.43.05:687][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BugFix" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BP_BugFix.uasset" SILENT=true
+[2020.05.15-04.43.05:692][756]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/BP_BugFix75D2C3D34C2DDCA8DCCA8DBF6F6FBDF0.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BP_BugFix.uasset'
+[2020.05.15-04.43.05:829][756]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 1
+SessionName : 
+Reason      : Delete Selected Item
+
+Purging the undo buffer...
+
+[2020.05.15-04.43.05:883][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.05.15-04.43.05:915][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.05.15-04.43.05:943][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.05.15-04.43.05:966][756]AssetCheck: New page: Asset Save: BP_BugFix
+[2020.05.15-04.43.05:966][756]LogContentValidation: Display: Validating Blueprint /Game/BP_BugFix.BP_BugFix
+[2020.05.15-04.43.05:976][756]LogTemp: Resetting audio stream to device id 
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: Is Default: Yes
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: Channel Order:
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 1: FrontRight
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 4: BackLeft
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 5: BackRight
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 6: SideLeft
+[2020.05.15-04.43.06:055][756]LogAudioMixer: Display: 7: SideRight

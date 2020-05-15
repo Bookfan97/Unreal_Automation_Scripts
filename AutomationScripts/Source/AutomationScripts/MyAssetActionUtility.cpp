@@ -63,6 +63,7 @@ void UMyAssetActionUtility::CheckPowerOfTwo()
 	}
 	GiveFeedback("Power of two", Counter);
 }
+
 bool UMyAssetActionUtility::IsPowerOfTwo(int32 NumberToCheck)
 {
 	if (NumberToCheck==0)
@@ -70,6 +71,36 @@ bool UMyAssetActionUtility::IsPowerOfTwo(int32 NumberToCheck)
 		return false;
 	}
 	return (NumberToCheck & (NumberToCheck - 1)) == 0;
+}
+#pragma endregion
+
+#pragma region AddPrefixes
+void UMyAssetActionUtility::AddPrefixes()
+{
+	TArray<UObject*> SelectedObjects = UEditorUtilityLibrary::GetSelectedAssets();
+	uint32 Counter = 0;
+	for (UObject* SelectedObject : SelectedObjects)
+	{
+		if (ensure(SelectedObject))
+		{
+			const FString* Prefix = PrefixMap.Find(SelectedObject->GetClass());
+			if (ensure(Prefix) && !Prefix->Equals(""))
+			{
+				FString OldName = SelectedObject->GetName();
+				if (!OldName.StartsWith(*Prefix))
+				{
+					FString NewName = *Prefix + OldName;
+					UEditorUtilityLibrary::RenameAsset(SelectedObject, NewName);
+					Counter++;
+				}
+			}
+			else
+			{
+				PrintToScreen("Could not find prefix for class " + SelectedObject->GetClass()->GetName(), FColor::Red);
+			}
+		}
+	}
+	GiveFeedback("Added prefix to ", Counter);
 }
 #pragma endregion
 
