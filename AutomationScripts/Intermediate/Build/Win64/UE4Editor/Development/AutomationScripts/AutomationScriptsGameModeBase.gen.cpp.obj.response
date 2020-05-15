@@ -31,11 +31,20 @@
 /wd4838
 /we4668
 /I .
-/I E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Inc\AutomationScripts
-/I E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Blutility
+/I Editor
+/I Editor\Blutility\Classes
+/I Editor\Blutility\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
+/I Editor\EditorSubsystem\Public
+/I Editor\MainFrame\Public
+/I Editor\Documentation\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
+/I E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Inc\AutomationScripts
+/I E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source
+/I Editor\Blutility\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
@@ -101,7 +110,6 @@
 /I Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public
 /I Runtime\SignalProcessing\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
-/I Editor
 /I Programs\UnrealLightmass\Public
 /I Developer\Android\AndroidDeviceDetection\Public\Interfaces
 /I Editor\UnrealEd\Classes
@@ -109,7 +117,6 @@
 /I Editor\BspMode\Public
 /I Developer
 /I Developer\DirectoryWatcher\Public
-/I Editor\Documentation\Public
 /I Runtime\Projects\Public
 /I Runtime\SandboxFile\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
@@ -124,8 +131,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph
 /I Editor\BlueprintGraph\Classes
 /I Editor\BlueprintGraph\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
-/I Editor\EditorSubsystem\Public
 /I Runtime\Online
 /I Runtime\Online\HTTP\Public
 /I Runtime\UnrealAudio\Public

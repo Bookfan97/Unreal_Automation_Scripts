@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AutomationScripts.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{72F37BE1-41E7-4402-A260-569C74F080B6}</UniqueIdentifier>
+      <UniqueIdentifier>{C68FEDD0-4969-49F8-A749-E81D0B1BCF15}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AutomationScripts.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9985FDEA-70E0-4292-9928-52469737B65D}</UniqueIdentifier>
+      <UniqueIdentifier>{4A98944C-9D89-48E9-A388-00E0BED52DD8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AutomationScripts">
-      <UniqueIdentifier>{E98CC291-D2D1-484E-8023-A38CBB142814}</UniqueIdentifier>
+      <UniqueIdentifier>{2761452F-DD03-43C9-8EA0-2302946C3876}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AutomationScripts\AutomationScripts.Build.cs">
       <Filter>Source\AutomationScripts</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\AutomationScripts</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AutomationScripts\AutomationScriptsGameModeBase.h">
+      <Filter>Source\AutomationScripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AutomationScripts\MyAssetActionUtility.cpp">
+      <Filter>Source\AutomationScripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AutomationScripts\MyAssetActionUtility.h">
       <Filter>Source\AutomationScripts</Filter>
     </ClInclude>
   </ItemGroup>

@@ -615,3 +615,61 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.15-03.02.45:980][125]LogSlate: Window 'Plugins' being destroyed
 [2020.05.15-03.02.45:983][125]LogSlate: Window 'Plugins' being destroyed
 [2020.05.15-03.02.46:065][125]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.05.15-03.03.53:832][696]LogSlate: Took 0.006176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.15-03.03.53:867][696]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.15-03.03.53:867][696]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.05.15-03.03.53:908][696]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.15-03.04.09:352][487]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.15-03.04.15:248][176]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject" -game -rocket -progress
+[2020.05.15-03.04.15:551][176]Discovering modules, targets and source code for project...
+[2020.05.15-03.04.20:962][176]Binding IntelliSense data...
+[2020.05.15-03.04.22:682][176]Binding IntelliSense data... 100%
+[2020.05.15-03.04.22:682][176]Writing project files...
+[2020.05.15-03.04.24:488][176]Writing project files... 100%
+[2020.05.15-03.04.24:589][176]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.05.15-03.04.24:593][176]Candidate modules for hot reload:
+[2020.05.15-03.04.24:593][176]  AutomationScripts
+[2020.05.15-03.04.24:593][176]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AutomationScripts,2066 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject" "E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject"  -IgnoreJunk]
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: New page: Compilation - May 14, 2020, 7:05:54 PM
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_Automation_Scripts).
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: Creating makefile for AutomationScriptsEditor (no existing makefile)
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: Parsing headers for AutomationScriptsEditor
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   Running UnrealHeaderTool "E:\Github\Unreal_Automation_Scripts\AutomationScripts\AutomationScripts.uproject" "E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\AutomationScriptsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: Reflection code generated for AutomationScriptsEditor in 14.586068 seconds
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: Building AutomationScriptsEditor...
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.15-03.05.54:852][176]CompilerResultsLog: Building 9 actions with 16 processes...
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   [1/9] MyAssetActionUtility.cpp
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Blutility\Classes\AssetActionUtility.h(9): fatal error C1083: Cannot open include file: 'BlutilityMenuExtensions.h': No such file or directory
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   [2/9] MyAssetActionUtility.gen.cpp
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Blutility\Classes\AssetActionUtility.h(9): fatal error C1083: Cannot open include file: 'BlutilityMenuExtensions.h': No such file or directory
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   [3/9] AutomationScripts.init.gen.cpp
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   [4/9] AutomationScripts.cpp
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   [5/9] AutomationScriptsGameModeBase.cpp
+[2020.05.15-03.05.54:852][176]CompilerResultsLog:   [6/9] AutomationScriptsGameModeBase.gen.cpp
+[2020.05.15-03.05.54:852][176]LogMainFrame: MainFrame: Module compiling took 90.263 seconds
+[2020.05.15-03.05.54:852][176]Warning: HotReload failed, recompile failed
+[2020.05.15-03.05.54:852][176]Warning: RebindPackages failed because compilation failed.
+[2020.05.15-03.06.33:026][176]LogSlate: Window 'Message' being destroyed
+[2020.05.15-03.06.33:030][176]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.15-03.10.47:535][713]LogHotReload: New module detected: UE4Editor-AutomationScripts-0003.dll
+[2020.05.15-03.10.48:217][716]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.15-03.10.48:260][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.05.15-03.10.48:277][716]LogClass: Could not find existing class MyAssetActionUtility in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.15-03.10.48:279][716]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.05.15-03.10.48:283][716]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.15-03.10.48:336][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.05.15-03.10.48:345][716]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 3037 classes and 728 folders.
+[2020.05.15-03.10.48:349][716]Display: HotReload took  0.1s.
+[2020.05.15-03.40.59:113][106]LogHotReload: New module detected: UE4Editor-AutomationScripts-0007.dll
+[2020.05.15-03.40.59:797][109]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.15-03.40.59:843][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.05.15-03.40.59:857][109]LogClass: Could not find existing class MyAssetActionUtility in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.15-03.40.59:857][109]LogClass: Function RenameSelectedAssets is new.
+[2020.05.15-03.40.59:860][109]LogHotReload: Re-instancing MyAssetActionUtility after hot-reload.
+[2020.05.15-03.40.59:925][109]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.05.15-03.40.59:929][109]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.15-03.40.59:977][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.05.15-03.40.59:987][109]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3037 classes and 728 folders.
+[2020.05.15-03.40.59:990][109]Display: HotReload took  0.2s.
+[2020.05.15-03.41.11:862][ 37]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
