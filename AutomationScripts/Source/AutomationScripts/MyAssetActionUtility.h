@@ -33,6 +33,8 @@ public:
 		void CleanupFolder(FString ParentFolder = FString("/Game"));
 	UFUNCTION(CallInEditor)
 		void DuplicateAssets(uint32 NumberOfDuplicates = 1, bool bSave = true);
+	UFUNCTION(CallInEditor)
+		void RemovedUnusedAssets(bool bDeleteImmediately);
 private:
 	const TMap<UClass*, FString> PrefixMap = {
 		{UBlueprint::StaticClass(), TEXT("BP_")},

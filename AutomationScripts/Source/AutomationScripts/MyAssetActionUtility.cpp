@@ -105,7 +105,7 @@ void UMyAssetActionUtility::AddPrefixes()
 }
 #pragma endregion
 
-#pragma region AddPrefixes
+#pragma region CleanupFolder
 void UMyAssetActionUtility::CleanupFolder(FString ParentFolder)
 {
 	if (!ParentFolder.StartsWith(TEXT("/Game")))
@@ -133,7 +133,7 @@ void UMyAssetActionUtility::CleanupFolder(FString ParentFolder)
 }
 #pragma endregion
 
-#pragma region AddPrefixes
+#pragma region DuplicateAssets
 void UMyAssetActionUtility::DuplicateAssets(uint32 NumberOfDuplicates, bool bSave)
 {
 	TArray<FAssetData> AssetDataArray = UEditorUtilityLibrary::GetSelectedAssetData();
@@ -155,6 +155,55 @@ void UMyAssetActionUtility::DuplicateAssets(uint32 NumberOfDuplicates, bool bSav
 		}
 	}
 	GiveFeedback("Duplicates: ",Counter);
+}
+#pragma endregion
+
+#pragma region RemovedUnusedAssets
+void UMyAssetActionUtility::RemovedUnusedAssets(bool bDeleteImmediately)
+{
+	TArray<UObject*> SelectedObjects = UEditorUtilityLibrary::GetSelectedAssets();
+	TArray<UObject*> UnusedObjects = TArray<UObject*>();
+
+	for (UObject* SelectedObject : SelectedObjects)
+	{
+		if (ensure(SelectedObject))
+		{
+			// FindPackageReferencersForAsset returns an array -> check size
+			if (UEditorAssetLibrary::FindPackageReferencersForAsset(SelectedObject->GetPathName(), true).Num() <= 0)
+			{
+				UnusedObjects.Add(SelectedObject);
+			}
+		}
+	}
+	uint32 Counter = 0;
+	for (UObject* SelectedObject : UnusedObjects)
+	{
+		if (bDeleteImmediately)
+		{
+			if (UEditorAssetLibrary::DeleteLoadedAsset(SelectedObject))
+			{
+				++Counter;
+			}
+			else
+			{
+				PrintToScreen("Error deleting " + SelectedObject->GetPathName(), FColor::Red);
+			}
+		}
+		else
+		{
+			FString NewPath = FPaths::Combine(TEXT("/Game"), TEXT("Bin"), SelectedObject->GetName());
+			if (UEditorAssetLibrary::RenameLoadedAsset(SelectedObject, NewPath))
+			{
+				++Counter;
+			}
+			else
+			{
+				PrintToScreen("Error moving " + SelectedObject->GetPathName(), FColor::Red);
+			}
+		}
+	}
+
+	GiveFeedback(bDeleteImmediately ? "Deleted" : "Moved to bin:", Counter);
 }
 #pragma endregion
 

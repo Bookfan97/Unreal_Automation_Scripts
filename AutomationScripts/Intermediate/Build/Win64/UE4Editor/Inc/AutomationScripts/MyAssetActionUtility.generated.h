@@ -16,6 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_SPARSE_DATA
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execRemovedUnusedAssets) \
+	{ \
+		P_GET_UBOOL(Z_Param_bDeleteImmediately); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemovedUnusedAssets(Z_Param_bDeleteImmediately); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDuplicateAssets) \
 	{ \
 		P_GET_PROPERTY(UUInt32Property,Z_Param_NumberOfDuplicates); \
@@ -64,6 +73,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRemovedUnusedAssets) \
+	{ \
+		P_GET_UBOOL(Z_Param_bDeleteImmediately); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemovedUnusedAssets(Z_Param_bDeleteImmediately); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDuplicateAssets) \
 	{ \
