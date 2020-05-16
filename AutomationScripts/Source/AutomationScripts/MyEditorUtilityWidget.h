@@ -37,10 +37,18 @@ public:
 			TEXT("_ORM"), TEXT("_OcclusionRoughnessMetallic"), TEXT("_Metallic"),
 			TEXT("_Roughness"), TEXT("_Mask")
 	};
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SearchAndReplace")
+		FString SearchPattern;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SearchAndReplace")
+		FString ReplacePattern;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SearchAndReplace")
+		TEnumAsByte<ESearchCase::Type> SearchCase;
 	UFUNCTION(CallInEditor, BlueprintCallable)
 		void OrganizeWorldOutliner();
 	UFUNCTION(CallInEditor, BlueprintCallable)
 		void DeleteNullSMActors();
 	UFUNCTION(CallInEditor, BlueprintCallable)
 		void SetTextureParamter();
+	UFUNCTION(CallInEditor, BlueprintCallable)
+		void SearchAndReplace();
 };

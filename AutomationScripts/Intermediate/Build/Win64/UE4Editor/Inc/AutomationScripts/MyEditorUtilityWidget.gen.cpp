@@ -19,7 +19,9 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	UPackage* Z_Construct_UPackage__Script_AutomationScripts();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner();
+	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter();
+	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_ESearchCase();
 	ENGINE_API UEnum* Z_Construct_UEnum_Engine_TextureCompressionSettings();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
@@ -30,6 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "DeleteNullSMActors", &UMyEditorUtilityWidget::execDeleteNullSMActors },
 			{ "OrganizeWorldOutliner", &UMyEditorUtilityWidget::execOrganizeWorldOutliner },
+			{ "SearchAndReplace", &UMyEditorUtilityWidget::execSearchAndReplace },
 			{ "SetTextureParamter", &UMyEditorUtilityWidget::execSetTextureParamter },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -80,6 +83,29 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace_Statics::Function_MetaDataParams[] = {
+		{ "CallInEditor", "true" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyEditorUtilityWidget, nullptr, "SearchAndReplace", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter_Statics
 	{
 #if WITH_METADATA
@@ -114,6 +140,18 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SearchCase_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_SearchCase;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReplacePattern_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReplacePattern;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SearchPattern_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_SearchPattern;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LinearColorPattern_MetaData[];
 #endif
@@ -154,6 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyEditorUtilityWidget_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors, "DeleteNullSMActors" }, // 3774292009
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner, "OrganizeWorldOutliner" }, // 437744539
+		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace, "SearchAndReplace" }, // 2998703084
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter, "SetTextureParamter" }, // 2206445969
 	};
 #if WITH_METADATA
@@ -163,6 +202,27 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchCase_MetaData[] = {
+		{ "Category", "SearchAndReplace" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchCase = { "SearchCase", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, SearchCase), Z_Construct_UEnum_CoreUObject_ESearchCase, METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchCase_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchCase_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_ReplacePattern_MetaData[] = {
+		{ "Category", "SearchAndReplace" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_ReplacePattern = { "ReplacePattern", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, ReplacePattern), METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_ReplacePattern_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_ReplacePattern_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchPattern_MetaData[] = {
+		{ "Category", "SearchAndReplace" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchPattern = { "SearchPattern", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, SearchPattern), METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchPattern_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchPattern_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern_MetaData[] = {
 		{ "Category", "TextureParams" },
@@ -217,6 +277,9 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath = { "FolderPath", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, FolderPath), METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyEditorUtilityWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchCase,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_ReplacePattern,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_SearchPattern,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_Compression,
@@ -254,7 +317,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 3889561524);
+	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 1660185451);
 	template<> AUTOMATIONSCRIPTS_API UClass* StaticClass<UMyEditorUtilityWidget>()
 	{
 		return UMyEditorUtilityWidget::StaticClass();
