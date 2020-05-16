@@ -15,7 +15,29 @@ void UMyEditorUtilityWidget::OrganizeWorldOutliner()
 			const FName* FolderName = FolderMap.Find(Actor->GetClass());
 			if (ensure(FolderName))
 			{
-				Actor->SetFolderPath("FolderName");
+				Actor->SetFolderPath(*FolderName);
+			}
+		}
+	}
+}
+#pragma endregion
+
+#pragma region OrganizeWorldOutliner
+void UMyEditorUtilityWidget::DeleteNullSMActors()
+{
+	TArray<AActor*> AllActors = UEditorLevelLibrary::GetAllLevelActors();
+	for (AActor* Actor : AllActors)
+	{
+		if (ensure(Actor))
+		{
+			AStaticMeshActor* StaticMeshActor = dynamic_cast<AStaticMeshActor*>(Actor);
+			if (ensure(StaticMeshActor))
+			{
+				UStaticMeshComponent* StaticMeshComponent = StaticMeshActor->GetStaticMeshComponent();
+				if (ensure(StaticMeshComponent) && nullptr == StaticMeshComponent->GetStaticMesh())
+				{
+					Actor->Destroy();
+				}
 			}
 		}
 	}

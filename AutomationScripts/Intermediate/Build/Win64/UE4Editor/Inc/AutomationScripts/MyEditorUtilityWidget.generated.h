@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_SPARSE_DATA
 #define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDeleteNullSMActors) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DeleteNullSMActors(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOrganizeWorldOutliner) \
 	{ \
 		P_FINISH; \
@@ -26,6 +34,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDeleteNullSMActors) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DeleteNullSMActors(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOrganizeWorldOutliner) \
 	{ \

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	AUTOMATIONSCRIPTS_API UClass* Z_Construct_UClass_UMyEditorUtilityWidget();
 	BLUTILITY_API UClass* Z_Construct_UClass_UEditorUtilityWidget();
 	UPackage* Z_Construct_UPackage__Script_AutomationScripts();
+	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
@@ -25,9 +26,33 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	{
 		UClass* Class = UMyEditorUtilityWidget::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "DeleteNullSMActors", &UMyEditorUtilityWidget::execDeleteNullSMActors },
 			{ "OrganizeWorldOutliner", &UMyEditorUtilityWidget::execOrganizeWorldOutliner },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors_Statics::Function_MetaDataParams[] = {
+		{ "CallInEditor", "true" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyEditorUtilityWidget, nullptr, "DeleteNullSMActors", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner_Statics
 	{
@@ -78,11 +103,12 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AutomationScripts,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyEditorUtilityWidget_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors, "DeleteNullSMActors" }, // 3774292009
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner, "OrganizeWorldOutliner" }, // 437744539
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "IncludePath", "MyEditorUtilityWidget.h" },
 		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
 	};
@@ -128,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 2697300298);
+	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 3130793740);
 	template<> AUTOMATIONSCRIPTS_API UClass* StaticClass<UMyEditorUtilityWidget>()
 	{
 		return UMyEditorUtilityWidget::StaticClass();

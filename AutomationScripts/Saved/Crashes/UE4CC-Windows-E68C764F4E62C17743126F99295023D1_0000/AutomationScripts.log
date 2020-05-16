@@ -808,3 +808,295 @@ MyEditorUtilityWidget.OrganizeWorldOutliner
 [2020.05.16-20.15.05:084][884]LogOutputDevice: Error: [Callstack] 0x00007fffd731cec1 ntdll.dll!UnknownFunction []
 [2020.05.16-20.15.05:084][884]LogOutputDevice: Error: 
 [2020.05.16-20.15.05:090][884]LogStats:                SubmitErrorReport -  0.000 s
+[2020.05.16-20.15.12:491][884]LogStats:                    SendNewReport -  7.402 s
+[2020.05.16-20.15.12:491][884]LogStats:             FDebug::EnsureFailed -  8.428 s
+[2020.05.16-20.15.12:499][884]LogEditorViewport: Clicking Background
+[2020.05.16-20.15.12:512][884]LogTemp: Resetting audio stream to device id 
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: Is Default: Yes
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: Channel Order:
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 1: FrontRight
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 4: BackLeft
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 5: BackRight
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 6: SideLeft
+[2020.05.16-20.15.12:588][884]LogAudioMixer: Display: 7: SideRight
+[2020.05.16-20.16.01:732][283]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-20.16.01:737][283]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-20.16.18:118][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.05.16-20.16.22:765][ 50]LogSlate: Window 'Message' being destroyed
+[2020.05.16-20.16.22:770][ 50]LogSlate: Window 'Save Level As' being destroyed
+[2020.05.16-20.16.22:775][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-20.16.22:804][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.05.16-20.16.22:959][ 50]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled8225F4C649ECB0FDA1DA0CB2DF51EE86.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap'
+[2020.05.16-20.16.22:980][ 50]LogFileHelpers: Saving map 'Untitled' took 0.207
+[2020.05.16-20.16.22:980][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled_BuiltData.uasset" SILENT=true
+[2020.05.16-20.16.22:990][ 50]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled_BuiltData04DC26C44C91A938DCF306BA1A37408C.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled_BuiltData.uasset'
+[2020.05.16-20.16.23:004][ 50]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.16-20.16.23:004][ 50]LogContentValidation: Display: Validating World /Game/Untitled.Untitled
+[2020.05.16-20.16.23:004][ 50]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Untitled_BuiltData.Untitled_BuiltData
+[2020.05.16-20.22.49:586][466]LogHotReload: New module detected: UE4Editor-AutomationScripts-0021.dll
+[2020.05.16-20.22.50:608][470]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.16-20.22.50:656][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.05.16-20.22.50:675][470]LogClass: Could not find existing class MyEditorUtilityWidget in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.16-20.22.50:675][470]LogClass: Function DeleteNullSMActors is new.
+[2020.05.16-20.22.50:675][470]LogClass: Function OrganizeWorldOutliner is new.
+[2020.05.16-20.22.50:680][470]LogHotReload: Re-instancing MyEditorUtilityWidget after hot-reload.
+[2020.05.16-20.22.50:681][470]LogBlueprint: Error: [Compiler NewEditorUtilityWidgetBlueprint] Cannot use the editor function "SetObject" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.05.16-20.22.50:963][470]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-20.22.50:969][470]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.05.16-20.22.51:047][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.05.16-20.22.51:060][470]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-20.22.51:063][470]Display: HotReload took  0.5s.
+[2020.05.16-20.23.09:142][306]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-20.23.09:143][306]LogBlueprint: Error: [Compiler NewEditorUtilityWidgetBlueprint] Cannot use the editor function "SetObject" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.05.16-20.23.09:371][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.05.16-20.23.11:006][486]Candidate modules for hot reload:
+[2020.05.16-20.23.11:006][486]  AutomationScripts
+[2020.05.16-20.23.11:006][486]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AutomationScripts,9470 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject" "E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject"  -IgnoreJunk]
+[2020.05.16-20.23.11:007][486]Warning: Starting HotReload took  0.0s.
+[2020.05.16-20.23.12:665][644]CompilerResultsLog: New page: Compilation - May 16, 2020, 12:23:12 PM
+[2020.05.16-20.23.12:665][644]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_Automation_Scripts).
+[2020.05.16-20.23.12:665][644]CompilerResultsLog: Building AutomationScriptsEditor...
+[2020.05.16-20.23.12:665][644]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.16-20.23.12:665][644]CompilerResultsLog: Building 3 actions with 16 processes...
+[2020.05.16-20.23.12:665][644]CompilerResultsLog:   [1/3] UE4Editor-AutomationScripts-9470.lib
+[2020.05.16-20.23.12:665][644]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-9470.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-9470.exp
+[2020.05.16-20.23.12:665][644]CompilerResultsLog:   [2/3] UE4Editor-AutomationScripts-9470.dll
+[2020.05.16-20.23.12:665][644]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-9470.suppressed.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-9470.suppressed.exp
+[2020.05.16-20.23.12:665][644]CompilerResultsLog:   [3/3] AutomationScriptsEditor.target
+[2020.05.16-20.23.12:665][644]CompilerResultsLog: Total time in Parallel executor: 0.77 seconds
+[2020.05.16-20.23.12:665][644]CompilerResultsLog: Total execution time: 1.60 seconds
+[2020.05.16-20.23.12:665][644]LogMainFrame: MainFrame: Module compiling took 1.663 seconds
+[2020.05.16-20.23.12:714][644]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.05.16-20.23.12:735][644]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-20.23.12:741][644]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.05.16-20.23.12:811][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.05.16-20.23.12:823][644]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-20.23.12:823][644]Display: HotReload took  1.8s.
+[2020.05.16-20.23.18:117][240]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-20.23.18:121][240]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-20.23.22:463][755]MapCheck: New page: Map Check
+[2020.05.16-20.23.22:474][755]Cmd: MAP REBUILD ALLVISIBLE
+[2020.05.16-20.23.22:474][755]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.05.16-20.23.22:531][755]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=false
+[2020.05.16-20.23.22:595][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.05.16-20.23.22:601][755]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-20.23.22:611][755]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2020.05.16-20.23.22:611][755]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2020.05.16-20.23.22:611][755]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-20.23.22:884][755]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.05.16-20.23.22:884][755]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.05.16-20.23.22:884][755]TextureStreamingBuild: Display: Compiling optional shaders took 0.288 seconds.
+[2020.05.16-20.23.22:885][755]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2020.05.16-20.23.22:889][755]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2020.05.16-20.23.22:936][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.05.16-20.23.22:938][755]LightingResults: New page: Lighting Build - May 16, 2020, 12:23:22 PM
+[2020.05.16-20.23.22:943][755]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.05.16-20.23.22:947][755]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.05.16-20.23.22:947][755]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.05.16-20.23.22:948][755]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.05.16-20.23.22:948][755]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12424
+[2020.05.16-20.23.27:474][755]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.05.16-20.23.27:474][755]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.05.16-20.23.27:474][755]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.05.16-20.23.27:474][755]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.05.16-20.23.27:474][755]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.05.16-20.23.27:474][755]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.05.16-20.23.27:551][755]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.05.16-20.23.27:551][755]MapCheck: New page: Untitled - May 16, 2020, 12:23:27 PM
+[2020.05.16-20.23.27:551][755]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.192ms to complete.
+[2020.05.16-20.23.27:553][755]LogEditorBuildUtils: Build time 0:05
+[2020.05.16-20.23.27:807][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.05.16-20.23.28:581][798]Job is a success!
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:      Bricks at depth
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:      Bricks in each level
+[2020.05.16-20.23.28:748][800]LogVolumetricLightmapImport:          Untitled 			 6 bricks 	 100.0% (Persistent Level)
+[2020.05.16-20.23.28:765][800]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2020.05.16-20.23.28:765][800]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2020.05.16-20.23.28:765][800]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.05.16-20.23.28:765][800]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.05.16-20.23.28:766][800]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2020.05.16-20.23.28:766][800]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2020.05.16-20.23.28:766][800]LogStaticLightingSystem: Untitled_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2020.05.16-20.23.28:800][800]Lightmass on DESKTOP-22ELON2: 638 ms total, 100 ms importing, 15 ms setup, 49 ms photons, 437 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 6.55 sec total, 121 ms processing.
+[2020.05.16-20.23.28:802][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.05.16-20.23.28:850][800]LogStaticLightingSystem: Illumination: 5.84 sec (11 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2020.05.16-20.23.28:850][800]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.05.16-20.23.28:850][800]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.05.16-20.23.29:480][800]DumpUnbuiltLightIteractions
+[2020.05.16-20.23.29:480][800]Lights with unbuilt interactions: 0
+[2020.05.16-20.23.29:480][800]
+[2020.05.16-20.23.29:480][800]Primitives with unbuilt interactions: 0
+[2020.05.16-20.23.29:547][801]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.05.16-20.23.29:547][801]MapCheck: New page: Untitled - May 16, 2020, 12:23:29 PM
+[2020.05.16-20.23.29:547][801]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.195ms to complete.
+[2020.05.16-20.24.08:958][796]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.16-20.24.08:972][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.16-20.24.08:972][796]BlueprintLog: Warning: Blueprint failed to compile:  NewEditorUtilityWidgetBlueprint
+[2020.05.16-20.24.08:973][796]LogCustomDialog: Dialog displayed:
+[2020.05.16-20.24.12:437][796]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.05.16-20.24.12:442][796]PIE: New page: PIE session: Untitled (May 16, 2020, 12:24:12 PM)
+[2020.05.16-20.24.12:442][796]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.16-20.24.12:443][796]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.16-20.24.12:443][796]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2020.05.16-20.24.12:445][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001702s)
+[2020.05.16-20.24.12:446][796]LogAIModule: Creating AISystem for world Untitled
+[2020.05.16-20.24.12:446][796]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2020.05.16-20.24.12:446][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.002852s)
+[2020.05.16-20.24.12:477][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.16-20.24.12:478][796]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.16-20.24.12:478][796]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.16-20.24.12:478][796]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: Is Default: Yes
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: Channel Order:
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 1: FrontRight
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 4: BackLeft
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 5: BackRight
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 6: SideLeft
+[2020.05.16-20.24.12:532][796]LogAudioMixer: Display: 7: SideRight
+[2020.05.16-20.24.12:562][796]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.05.16-20.24.12:564][796]LogInit: FAudioDevice initialized.
+[2020.05.16-20.24.12:598][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.16-20.24.12:599][796]LogLoad: Game class is 'GameModeBase'
+[2020.05.16-20.24.12:599][796]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.05.16-16.24.12
+[2020.05.16-20.24.12:600][796]LogWorld: Bringing up level for play took: 0.000401
+[2020.05.16-20.24.12:600][796]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.16-20.24.12:626][796]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.05.16-20.24.12:627][796]PIE: Play in editor start time for /Game/UEDPIE_0_Untitled 4.222
+[2020.05.16-20.24.12:652][797]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.05.16-20.24.15:660][134]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.16-20.24.15:674][134]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.16-20.24.15:694][134]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.16-20.24.15:694][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.16-20.24.15:694][134]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Untitled
+[2020.05.16-20.24.15:703][134]LogSlate: Window 'AutomationScripts Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.16-20.24.15:706][134]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.16-20.24.15:706][134]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-20.24.15:707][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-20.24.15:713][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.16-20.24.15:719][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-20.24.15:751][134]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.16-20.24.15:798][134]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.05.16-20.24.15:807][135]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.16-20.24.18:514][457]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-20.24.18:515][457]LogBlueprint: Error: [Compiler NewEditorUtilityWidgetBlueprint] Cannot use the editor function "SetObject" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.05.16-20.24.18:563][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.05.16-20.24.27:939][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-20.24.27:953][546]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint6F59EAAE4B19973957F352B09DE88109.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-20.24.27:963][546]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-20.24.27:963][546]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-20.24.35:229][389]Candidate modules for hot reload:
+[2020.05.16-20.24.35:230][389]  AutomationScripts
+[2020.05.16-20.24.35:230][389]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AutomationScripts,6537 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject" "E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject"  -IgnoreJunk]
+[2020.05.16-20.24.35:231][389]Warning: Starting HotReload took  0.0s.
+[2020.05.16-20.24.36:878][545]CompilerResultsLog: New page: Compilation - May 16, 2020, 12:24:36 PM
+[2020.05.16-20.24.36:878][545]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_Automation_Scripts).
+[2020.05.16-20.24.36:878][545]CompilerResultsLog: Building AutomationScriptsEditor...
+[2020.05.16-20.24.36:878][545]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.16-20.24.36:878][545]CompilerResultsLog: Building 3 actions with 16 processes...
+[2020.05.16-20.24.36:878][545]CompilerResultsLog:   [1/3] UE4Editor-AutomationScripts-6537.lib
+[2020.05.16-20.24.36:878][545]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-6537.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-6537.exp
+[2020.05.16-20.24.36:878][545]CompilerResultsLog:   [2/3] UE4Editor-AutomationScripts-6537.dll
+[2020.05.16-20.24.36:878][545]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-6537.suppressed.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-6537.suppressed.exp
+[2020.05.16-20.24.36:878][545]CompilerResultsLog:   [3/3] AutomationScriptsEditor.target
+[2020.05.16-20.24.36:878][545]CompilerResultsLog: Total time in Parallel executor: 0.76 seconds
+[2020.05.16-20.24.36:878][545]CompilerResultsLog: Total execution time: 1.58 seconds
+[2020.05.16-20.24.36:878][545]LogMainFrame: MainFrame: Module compiling took 1.652 seconds
+[2020.05.16-20.24.36:911][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.05.16-20.24.36:934][545]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-20.24.36:939][545]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.05.16-20.24.37:009][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.05.16-20.24.37:021][545]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-20.24.37:021][545]Display: HotReload took  1.8s.
+[2020.05.16-20.25.33:341][269]Candidate modules for hot reload:
+[2020.05.16-20.25.33:341][269]  AutomationScripts
+[2020.05.16-20.25.33:341][269]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AutomationScripts,1530 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject" "E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject"  -IgnoreJunk]
+[2020.05.16-20.25.33:342][269]Warning: Starting HotReload took  0.0s.
+[2020.05.16-20.25.34:973][423]CompilerResultsLog: New page: Compilation - May 16, 2020, 12:25:34 PM
+[2020.05.16-20.25.34:973][423]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_Automation_Scripts).
+[2020.05.16-20.25.34:973][423]CompilerResultsLog: Building AutomationScriptsEditor...
+[2020.05.16-20.25.34:973][423]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.16-20.25.34:973][423]CompilerResultsLog: Building 3 actions with 16 processes...
+[2020.05.16-20.25.34:973][423]CompilerResultsLog:   [1/3] UE4Editor-AutomationScripts-1530.lib
+[2020.05.16-20.25.34:973][423]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1530.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1530.exp
+[2020.05.16-20.25.34:973][423]CompilerResultsLog:   [2/3] UE4Editor-AutomationScripts-1530.dll
+[2020.05.16-20.25.34:973][423]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1530.suppressed.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1530.suppressed.exp
+[2020.05.16-20.25.34:973][423]CompilerResultsLog:   [3/3] AutomationScriptsEditor.target
+[2020.05.16-20.25.34:973][423]CompilerResultsLog: Total time in Parallel executor: 0.74 seconds
+[2020.05.16-20.25.34:973][423]CompilerResultsLog: Total execution time: 1.57 seconds
+[2020.05.16-20.25.34:973][423]LogMainFrame: MainFrame: Module compiling took 1.635 seconds
+[2020.05.16-20.25.35:029][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.05.16-20.25.35:052][423]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-20.25.35:058][423]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.05.16-20.25.35:157][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.05.16-20.25.35:170][423]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-20.25.35:170][423]Display: HotReload took  1.8s.
+[2020.05.16-20.25.38:011][731]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-20.25.38:072][731]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.05.16-20.25.52:555][419]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyEditorUtilityWidget.OrganizeWorldOutliner
+
+[2020.05.16-20.25.59:218][419]LogStats: FPlatformStackWalk::StackWalkAndDump -  6.663 s
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: 
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: Ensure condition failed: FolderName [File:E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyEditorUtilityWidget.cpp] [Line: 16]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: 
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: Stack: 
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fffb879e908 UE4Editor-AutomationScripts-1530.dll!<lambda_0b2e695702ccd7fb1860dcd0df43c83c>::operator()() [E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyEditorUtilityWidget.cpp:16]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fffb87976ff UE4Editor-AutomationScripts-1530.dll!UMyEditorUtilityWidget::OrganizeWorldOutliner() [E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyEditorUtilityWidget.cpp:16]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3b9e42e8 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4907]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3bc30148 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1912]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff10505607 UE4Editor-DetailCustomizations.dll!FObjectDetails::OnExecuteCallInEditorFunction() [d:\build\++ue4\sync\engine\source\editor\detailcustomizations\private\objectdetails.cpp:235]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff104c75ab UE4Editor-DetailCustomizations.dll!TBaseSPMethodDelegateInstance<0,FObjectDetails,0,FReply __cdecl(void),TWeakObjectPtr<UFunction,FWeakObjectPtr> >::Execute() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:293]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3a3c1498 UE4Editor-Slate.dll!SButton::ExecuteOnClick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:385]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3a3d9281 UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:304]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3a23323f UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_6c1f6b862bcfb82ea6dcab28fbcc9463> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:372]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3a2b9175 UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4617]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3a2a413e UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5140]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff3a298f67 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5108]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff493b4ca1 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1958]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff493a242f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2410]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff493b7195 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1638]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff4939ec40 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:789]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fffd6cde338 USER32.dll!UnknownFunction []
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fffd6cddd79 USER32.dll!UnknownFunction []
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fff493b8699 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007ff60efd6db0 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4397]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007ff60efec3ec UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:173]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007ff60efec4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007ff60effceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007ff60efffcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fffd6c26fd4 KERNEL32.DLL!UnknownFunction []
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: [Callstack] 0x00007fffd731cec1 ntdll.dll!UnknownFunction []
+[2020.05.16-20.25.59:218][419]LogOutputDevice: Error: 
+[2020.05.16-20.25.59:227][419]LogStats:                SubmitErrorReport -  0.000 s

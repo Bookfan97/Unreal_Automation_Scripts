@@ -10,7 +10,7 @@
 #include "MyEditorUtilityWidget.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class AUTOMATIONSCRIPTS_API UMyEditorUtilityWidget : public UEditorUtilityWidget
@@ -18,12 +18,13 @@ class AUTOMATIONSCRIPTS_API UMyEditorUtilityWidget : public UEditorUtilityWidget
 	GENERATED_BODY()
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OrganizeWorldOutline")
-	TMap<UClass*, FName> FolderMap = {
-			{AStaticMeshActor::StaticClass(), "Static Meshes"},
-			{AReflectionCapture::StaticClass(), "Reflection Captures"},
-			{ASkyLight::StaticClass(), "Lights"}
+		TMap<UClass*, FName> FolderMap = {
+				{AStaticMeshActor::StaticClass(), "Static Meshes"},
+				{AReflectionCapture::StaticClass(), "Reflection Captures"},
+				{ASkyLight::StaticClass(), "Lights"}
 	};
-		UFUNCTION(CallInEditor, BlueprintCallable)
+	UFUNCTION(CallInEditor, BlueprintCallable)
 		void OrganizeWorldOutliner();
-	
+	UFUNCTION(CallInEditor, BlueprintCallable)
+		void DeleteNullSMActors();
 };
