@@ -2,8 +2,22 @@
 
 
 #include "MyEditorUtilityWidget.h"
+#include "EditorLevelLibrary.h"
 
-void UMyEditorUtilityWidget::Test()
+#pragma region OrganizeWorldOutliner
+void UMyEditorUtilityWidget::OrganizeWorldOutliner()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 2.5f, FColor::Red, TEXT("Hello world"));
+	TArray<AActor*> AllActors = UEditorLevelLibrary::GetAllLevelActors();
+	for (AActor* Actor : AllActors)
+	{
+		if (ensure(Actor))
+		{
+			const FName* FolderName = FolderMap.Find(Actor->GetClass());
+			if (ensure(FolderName))
+			{
+				Actor->SetFolderPath("FolderName");
+			}
+		}
+	}
 }
+#pragma endregion
