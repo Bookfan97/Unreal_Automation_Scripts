@@ -38,7 +38,7 @@ void UMyAssetActionUtility::CheckPowerOfTwo()
 {
 	TArray<UObject*> SelectedObjects = UEditorUtilityLibrary::GetSelectedAssets();
 	uint32 Counter = 0;
-	for (UObject* SelectedObject: SelectedObjects)
+	for (UObject* SelectedObject : SelectedObjects)
 	{
 		if (ensure(SelectedObject))
 		{
@@ -67,7 +67,7 @@ void UMyAssetActionUtility::CheckPowerOfTwo()
 
 bool UMyAssetActionUtility::IsPowerOfTwo(int32 NumberToCheck)
 {
-	if (NumberToCheck==0)
+	if (NumberToCheck == 0)
 	{
 		return false;
 	}
@@ -130,6 +130,31 @@ void UMyAssetActionUtility::CleanupFolder(FString ParentFolder)
 		}
 	}
 	GiveFeedback("Moved", Counter);
+}
+#pragma endregion
+
+#pragma region AddPrefixes
+void UMyAssetActionUtility::DuplicateAssets(uint32 NumberOfDuplicates, bool bSave)
+{
+	TArray<FAssetData> AssetDataArray = UEditorUtilityLibrary::GetSelectedAssetData();
+	uint32 Counter = 0;
+	for (FAssetData AssetData : AssetDataArray)
+	{
+		for (uint32 i = 0; i < NumberOfDuplicates; i++)
+		{
+			FString NewFilename = AssetData.AssetName.ToString().AppendChar('_').Append(FString::FromInt(i));
+			FString NewPath = FPaths::Combine(AssetData.PackagePath.ToString(), NewFilename);
+			if (ensure(UEditorAssetLibrary::DuplicateAsset(AssetData.ObjectPath.ToString(), NewPath)))
+			{
+				++Counter;
+				if(bSave)
+				{
+					UEditorAssetLibrary::SaveAsset(NewPath, false);
+				}
+			}
+		}
+	}
+	GiveFeedback("Duplicates: ",Counter);
 }
 #pragma endregion
 

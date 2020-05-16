@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_AddPrefixes();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_CheckPowerOfTwo();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder();
+	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_RenameSelectedAssets();
 	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_ESearchCase();
 // End Cross Module References
@@ -30,6 +31,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 			{ "AddPrefixes", &UMyAssetActionUtility::execAddPrefixes },
 			{ "CheckPowerOfTwo", &UMyAssetActionUtility::execCheckPowerOfTwo },
 			{ "CleanupFolder", &UMyAssetActionUtility::execCleanupFolder },
+			{ "DuplicateAssets", &UMyAssetActionUtility::execDuplicateAssets },
 			{ "RenameSelectedAssets", &UMyAssetActionUtility::execRenameSelectedAssets },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -113,6 +115,48 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics
+	{
+		struct MyAssetActionUtility_eventDuplicateAssets_Parms
+		{
+			uint32 NumberOfDuplicates;
+			bool bSave;
+		};
+		static void NewProp_bSave_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bSave;
+		static const UE4CodeGen_Private::FUInt32PropertyParams NewProp_NumberOfDuplicates;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::NewProp_bSave_SetBit(void* Obj)
+	{
+		((MyAssetActionUtility_eventDuplicateAssets_Parms*)Obj)->bSave = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::NewProp_bSave = { "bSave", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MyAssetActionUtility_eventDuplicateAssets_Parms), &Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::NewProp_bSave_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUInt32PropertyParams Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::NewProp_NumberOfDuplicates = { "NumberOfDuplicates", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAssetActionUtility_eventDuplicateAssets_Parms, NumberOfDuplicates), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::NewProp_bSave,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::NewProp_NumberOfDuplicates,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::Function_MetaDataParams[] = {
+		{ "CallInEditor", "true" },
+		{ "ModuleRelativePath", "MyAssetActionUtility.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyAssetActionUtility, nullptr, "DuplicateAssets", nullptr, nullptr, sizeof(MyAssetActionUtility_eventDuplicateAssets_Parms), Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UMyAssetActionUtility_RenameSelectedAssets_Statics
 	{
 		struct MyAssetActionUtility_eventRenameSelectedAssets_Parms
@@ -176,6 +220,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 		{ &Z_Construct_UFunction_UMyAssetActionUtility_AddPrefixes, "AddPrefixes" }, // 114933757
 		{ &Z_Construct_UFunction_UMyAssetActionUtility_CheckPowerOfTwo, "CheckPowerOfTwo" }, // 2725837170
 		{ &Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder, "CleanupFolder" }, // 2543757703
+		{ &Z_Construct_UFunction_UMyAssetActionUtility_DuplicateAssets, "DuplicateAssets" }, // 1807792265
 		{ &Z_Construct_UFunction_UMyAssetActionUtility_RenameSelectedAssets, "RenameSelectedAssets" }, // 2903259622
 	};
 #if WITH_METADATA
@@ -213,7 +258,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyAssetActionUtility, 3254521942);
+	IMPLEMENT_CLASS(UMyAssetActionUtility, 2798535977);
 	template<> AUTOMATIONSCRIPTS_API UClass* StaticClass<UMyAssetActionUtility>()
 	{
 		return UMyAssetActionUtility::StaticClass();

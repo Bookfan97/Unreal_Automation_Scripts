@@ -634,3 +634,32 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.16-00.02.22:691][306]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 3037 classes and 728 folders.
 [2020.05.16-00.02.22:694][306]Display: HotReload took  0.2s.
 [2020.05.16-00.04.36:643][761]LogSlate: Window 'Cleanup Folder' being destroyed
+[2020.05.16-00.48.51:715][969]LogHotReload: New module detected: UE4Editor-AutomationScripts-0004.dll
+[2020.05.16-00.48.52:396][972]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.16-00.48.52:432][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.05.16-00.48.52:446][972]LogClass: Could not find existing class MyAssetActionUtility in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.16-00.48.52:446][972]LogClass: Function AddPrefixes is new.
+[2020.05.16-00.48.52:446][972]LogClass: Function CheckPowerOfTwo is new.
+[2020.05.16-00.48.52:446][972]LogClass: Function CleanupFolder is new.
+[2020.05.16-00.48.52:446][972]LogClass: Function DuplicateAssets is new.
+[2020.05.16-00.48.52:446][972]LogClass: Function RenameSelectedAssets is new.
+[2020.05.16-00.48.52:448][972]LogHotReload: Re-instancing MyAssetActionUtility after hot-reload.
+[2020.05.16-00.48.52:514][972]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.05.16-00.48.52:518][972]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.16-00.48.52:562][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.05.16-00.48.52:571][972]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3037 classes and 728 folders.
+[2020.05.16-00.48.52:574][972]Display: HotReload took  0.2s.
+[2020.05.16-00.49.07:270][561]LogSlate: Window 'Duplicate Assets' being destroyed
+[2020.05.16-00.49.07:301][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.05.16-00.49.07:306][561]The following assets could not be successfully checked out from source control:
+/Game/BP_BugFix_0
+[2020.05.16-00.49.07:324][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BugFix_0" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BP_BugFix_0.uasset" SILENT=true
+[2020.05.16-00.49.07:330][561]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/BP_BugFix_07A5BB1C046B1D5C46CA75B9DCAB41FAE.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BP_BugFix_0.uasset'
+[2020.05.16-00.49.07:367][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.05.16-00.49.07:370][561]The following assets could not be successfully checked out from source control:
+/Game/BP_BugFix_1
+[2020.05.16-00.49.07:388][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BugFix_1" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BP_BugFix_1.uasset" SILENT=true
+[2020.05.16-00.49.07:394][561]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/BP_BugFix_1CD0E061748168F58B31BAAB7CDC6137D.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BP_BugFix_1.uasset'
+[2020.05.16-00.49.07:405][561]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.16-00.49.07:405][561]LogContentValidation: Display: Validating Blueprint /Game/BP_BugFix_0.BP_BugFix_0
+[2020.05.16-00.49.07:405][561]LogContentValidation: Display: Validating Blueprint /Game/BP_BugFix_1.BP_BugFix_1
