@@ -13,8 +13,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AUTOMATIONSCRIPTS_MyEditorUtilityWidget_generated_h
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_SPARSE_DATA
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_RPC_WRAPPERS \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_SPARSE_DATA
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetTextureParamter) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTextureParamter(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDeleteNullSMActors) \
 	{ \
@@ -33,7 +41,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetTextureParamter) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTextureParamter(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDeleteNullSMActors) \
 	{ \
@@ -52,7 +68,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_INCLASS_NO_PURE_DECLS \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyEditorUtilityWidget(); \
 	friend struct Z_Construct_UClass_UMyEditorUtilityWidget_Statics; \
@@ -61,7 +77,7 @@ public: \
 	DECLARE_SERIALIZER(UMyEditorUtilityWidget)
 
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_INCLASS \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyEditorUtilityWidget(); \
 	friend struct Z_Construct_UClass_UMyEditorUtilityWidget_Statics; \
@@ -70,7 +86,7 @@ public: \
 	DECLARE_SERIALIZER(UMyEditorUtilityWidget)
 
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_STANDARD_CONSTRUCTORS \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyEditorUtilityWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyEditorUtilityWidget) \
@@ -83,7 +99,7 @@ private: \
 public:
 
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_ENHANCED_CONSTRUCTORS \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyEditorUtilityWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -96,28 +112,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyEditorUtilityWidget); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyEditorUtilityWidget)
 
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_PRIVATE_PROPERTY_OFFSET
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_15_PROLOG
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_GENERATED_BODY_LEGACY \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_PRIVATE_PROPERTY_OFFSET
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_16_PROLOG
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_PRIVATE_PROPERTY_OFFSET \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_SPARSE_DATA \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_RPC_WRAPPERS \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_INCLASS \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_STANDARD_CONSTRUCTORS \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_PRIVATE_PROPERTY_OFFSET \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_SPARSE_DATA \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_RPC_WRAPPERS \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_INCLASS \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_GENERATED_BODY \
+#define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_PRIVATE_PROPERTY_OFFSET \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_SPARSE_DATA \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_INCLASS_NO_PURE_DECLS \
-	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_18_ENHANCED_CONSTRUCTORS \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_PRIVATE_PROPERTY_OFFSET \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_SPARSE_DATA \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_INCLASS_NO_PURE_DECLS \
+	AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

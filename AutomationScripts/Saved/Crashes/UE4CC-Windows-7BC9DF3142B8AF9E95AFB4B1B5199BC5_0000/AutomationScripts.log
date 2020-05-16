@@ -756,3 +756,201 @@ NewEditorUtilityWidgetBlueprint_C.BndEvt__Button_Test_K2Node_ComponentBoundEvent
 [2020.05.16-21.02.52:200][855]LogOutputDevice: Error: [Callstack] 0x00007fffd731cec1 ntdll.dll!UnknownFunction []
 [2020.05.16-21.02.52:200][855]LogOutputDevice: Error: 
 [2020.05.16-21.02.52:277][855]LogStats:                SubmitErrorReport -  0.000 s
+[2020.05.16-21.02.53:564][855]LogStats:                    SendNewReport -  1.286 s
+[2020.05.16-21.02.53:564][855]LogStats:             FDebug::EnsureFailed -  1.821 s
+[2020.05.16-21.02.53:566][855]LogTemp: Resetting audio stream to device id 
+[2020.05.16-21.02.53:658][855]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.16-21.02.53:658][855]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.05.16-21.02.53:658][855]LogAudioMixer: Display: Is Default: Yes
+[2020.05.16-21.02.53:658][855]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.16-21.02.53:658][855]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.16-21.02.53:658][855]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: Channel Order:
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 1: FrontRight
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 4: BackLeft
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 5: BackRight
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 6: SideLeft
+[2020.05.16-21.02.53:659][855]LogAudioMixer: Display: 7: SideRight
+[2020.05.16-21.02.57:283][284]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-21.02.57:288][284]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-21.03.01:210][467]LogSlate: Window 'Save Level As' being destroyed
+[2020.05.16-21.03.01:565][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-21.03.01:600][467]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.05.16-21.03.01:611][467]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewMapA2480022455F6E0C75C2B6AE684510D3.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap.umap'
+[2020.05.16-21.03.01:631][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap_BuiltData.uasset" SILENT=true
+[2020.05.16-21.03.01:642][467]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewMap_BuiltData71E913084FF7A5543D1D37B09FBD30E0.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap_BuiltData.uasset'
+[2020.05.16-21.03.01:650][467]LogFileHelpers: Saving map 'NewMap' took 0.434
+[2020.05.16-21.03.01:660][467]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.16-21.03.01:660][467]LogContentValidation: Display: Validating World /Game/NewMap.NewMap
+[2020.05.16-21.03.01:660][467]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/NewMap_BuiltData.NewMap_BuiltData
+[2020.05.16-21.10.18:835][332]LogHotReload: New module detected: UE4Editor-AutomationScripts-0035.dll
+[2020.05.16-21.10.19:519][335]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.16-21.10.19:566][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.05.16-21.10.19:589][335]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-21.10.19:594][335]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.05.16-21.10.19:660][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.05.16-21.10.19:673][335]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-21.10.19:675][335]Display: HotReload took  0.2s.
+[2020.05.16-21.12.43:611][762]LogHotReload: New module detected: UE4Editor-AutomationScripts-0036.dll
+[2020.05.16-21.12.44:295][765]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.16-21.12.44:369][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.05.16-21.12.44:389][765]LogClass: Could not find existing class MyEditorUtilityWidget in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.16-21.12.44:389][765]LogClass: Function DeleteNullSMActors is new.
+[2020.05.16-21.12.44:389][765]LogClass: Function OrganizeWorldOutliner is new.
+[2020.05.16-21.12.44:389][765]LogClass: Function SetTextureParamter is new.
+[2020.05.16-21.12.44:394][765]LogHotReload: Re-instancing MyEditorUtilityWidget after hot-reload.
+[2020.05.16-21.12.44:396][765]LogBlueprint: Error: [Compiler NewEditorUtilityWidgetBlueprint] Cannot use the editor function "SetObject" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.05.16-21.12.44:536][765]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-21.12.44:542][765]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.05.16-21.12.44:627][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.05.16-21.12.44:640][765]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-21.12.44:642][765]Display: HotReload took  0.3s.
+[2020.05.16-21.14.05:853][  6]LogHotReload: New module detected: UE4Editor-AutomationScripts-0037.dll
+[2020.05.16-21.14.06:538][  9]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.16-21.14.06:603][  9]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.05.16-21.14.06:625][  9]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-21.14.06:631][  9]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.05.16-21.14.06:694][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.05.16-21.14.06:706][  9]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-21.14.06:709][  9]Display: HotReload took  0.2s.
+[2020.05.16-21.14.54:840][906]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.14.54:841][906]LogBlueprint: Error: [Compiler NewEditorUtilityWidgetBlueprint] Cannot use the editor function "SetObject" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.05.16-21.14.54:897][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.05.16-21.15.00:559][554]LogSlate: Took 0.001254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.05.16-21.15.32:558][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.15.32:577][549]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprintA900E42644550A982BB882BF62E53494.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.15.32:588][549]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.15.32:588][549]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.15.40:900][528]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.15.40:939][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.05.16-21.16.45:585][549]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.16.45:623][549]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.05.16-21.16.45:662][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.16.45:673][549]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint5C97544744C72A5519C19EB2C5825EAB.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.16.45:682][549]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.16.45:682][549]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.17.05:413][977]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.17.05:450][977]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.05.16-21.17.05:481][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.17.05:491][977]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint7D39B2D14202C8CAB1AD468E08CFBB0F.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.17.05:504][977]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.17.05:504][977]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.17.46:258][328]LogScript: Warning: Accessed None trying to read property DetailsView_105
+	NewEditorUtilityWidgetBlueprint_C /Engine/Transient.World_1:NewEditorUtilityWidgetBlueprint_C_35
+	Function /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint_C:ExecuteUbergraph_NewEditorUtilityWidgetBlueprint:0028
+[2020.05.16-21.17.52:568][ 77]LogScript: Warning: Accessed None trying to read property DetailsView_105
+	NewEditorUtilityWidgetBlueprint_C /Engine/Transient.World_1:NewEditorUtilityWidgetBlueprint_C_36
+	Function /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint_C:ExecuteUbergraph_NewEditorUtilityWidgetBlueprint:0028
+[2020.05.16-21.18.07:128][143]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.05.16-21.18.07:143][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.18.07:154][143]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint5525D81F452A2E563087D2A477B55998.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.18.07:165][143]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.18.07:165][143]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.18.08:369][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.18.08:380][286]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprintFCC2F0A44574328DE652CFB82E041155.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.18.08:390][286]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.18.08:390][286]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.18.48:004][526]LogScript: Warning: Accessed None trying to read property DetailsView_105
+	NewEditorUtilityWidgetBlueprint_C /Engine/Transient.World_1:NewEditorUtilityWidgetBlueprint_C_37
+	Function /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint_C:ExecuteUbergraph_NewEditorUtilityWidgetBlueprint:0028
+[2020.05.16-21.18.51:345][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.18.51:357][914]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprintA0F0A27A4FCD0B2B8E6EC69CAF7A2D78.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.18.51:368][914]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.18.51:368][914]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.19.05:552][590]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event Pre Construct  and was replaced as a Custom Event!
+[2020.05.16-21.19.12:389][345]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent_1   conflicted with  Event Pre Construct  and was replaced as a Custom Event!
+[2020.05.16-21.19.21:720][415]LogEditorTransaction: Undo Delete current selection
+[2020.05.16-21.20.19:945][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.20.19:958][250]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprintB4233E8C42A2CEA0F7C5E3AE377DDD7F.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.20.19:971][250]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.20.19:971][250]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.20.21:711][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.05.16-21.20.23:216][617]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.20.23:253][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.05.16-21.21.23:835][449]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.21.23:874][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.05.16-21.21.23:916][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.21.24:230][449]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint9CFF686D4FC6255E5933A19141706E57.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.21.24:240][449]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.21.24:240][449]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.05:192][231]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.05:232][231]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.05.16-21.22.05:289][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.22.05:301][231]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprintBFCAA1BA4DC189D15E9979AF2525CE34.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.22.05:313][231]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.05:313][231]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.05:942][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.22.05:954][300]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint6023F6CA4A168B4CC2D94490D6399284.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.22.05:963][300]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.05:964][300]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.07:746][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.05.16-21.22.36:872][656]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.36:908][656]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.05.16-21.22.36:953][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.22.36:967][656]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint7EEEFFB049E8EE9A9FAC0995C0DE4AC9.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.22.36:978][656]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.36:978][656]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.38:246][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-21.22.38:258][791]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint68C6CD8B41DAA77278E6969700A80859.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-21.22.38:267][791]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.38:268][791]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-21.22.49:935][107]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-21.22.52:878][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-21.22.52:912][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.05.16-21.22.52:929][453]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewMapC2E12D54486C5241D574189F95F00E15.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap.umap'
+[2020.05.16-21.22.52:949][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap_BuiltData.uasset" SILENT=true
+[2020.05.16-21.22.52:962][453]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewMap_BuiltData27E17687433EC7BB95F21090557C947C.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewMap_BuiltData.uasset'
+[2020.05.16-21.22.52:976][453]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.16-21.22.52:976][453]LogContentValidation: Display: Validating World /Game/NewMap.NewMap
+[2020.05.16-21.22.52:976][453]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/NewMap_BuiltData.NewMap_BuiltData
+[2020.05.16-21.22.57:448][987]LogOutputDevice: Warning: 
+
+Script Stack (2 frames):
+NewEditorUtilityWidgetBlueprint_C.ExecuteUbergraph_NewEditorUtilityWidgetBlueprint
+NewEditorUtilityWidgetBlueprint_C.BndEvt__Button_Test_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+
+[2020.05.16-21.22.59:422][987]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.974 s
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: 
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: Ensure condition failed: FolderName [File:E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyEditorUtilityWidget.cpp] [Line: 17]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: 
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: Stack: 
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff1ffcea08 UE4Editor-AutomationScripts-0037.dll!<lambda_05518184f3cb36a100daca760ba2a3e5>::operator()() [E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyEditorUtilityWidget.cpp:17]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff1ffc7a3f UE4Editor-AutomationScripts-0037.dll!UMyEditorUtilityWidget::OrganizeWorldOutliner() [E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\MyEditorUtilityWidget.cpp:17]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff466942e8 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4907]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff468ba62f UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:927]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff468e0cd2 UE4Editor-CoreUObject.dll!ProcessLocalScriptFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:997]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff468aedbb UE4Editor-CoreUObject.dll!ProcessScriptFunction<void (__cdecl*)(UObject *,FFrame &,void *)>() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:828]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff468e09ef UE4Editor-CoreUObject.dll!ProcessLocalFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1056]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff468e0cd2 UE4Editor-CoreUObject.dll!ProcessLocalScriptFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:997]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff468e0644 UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1081]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff466942e8 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4907]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff468e0148 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1912]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff39cde7d0 UE4Editor-UMG.dll!TMulticastScriptDelegate<FWeakObjectPtr>::ProcessMulticastDelegate<UObject>() [d:\build\++ue4\sync\engine\source\runtime\core\public\uobject\scriptdelegates.h:488]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff39df0fa7 UE4Editor-UMG.dll!UButton::SlateHandleClicked() [d:\build\++ue4\sync\engine\source\runtime\umg\private\components\button.cpp:205]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff39d6d5d0 UE4Editor-UMG.dll!TBaseUObjectMethodDelegateInstance<0,UButton,FReply __cdecl(void)>::Execute() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:649]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff3aec1498 UE4Editor-Slate.dll!SButton::ExecuteOnClick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:385]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff3aed9281 UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:304]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff3ad3323f UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_6c1f6b862bcfb82ea6dcab28fbcc9463> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:372]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff3adb9175 UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4617]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff3ada413e UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5140]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fff3ad98f67 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5108]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffb86c4ca1 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1958]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffb86b242f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2410]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffb86c7195 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1638]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffb86aec40 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:789]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffd6cde338 USER32.dll!UnknownFunction []
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffd6cddd79 USER32.dll!UnknownFunction []
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffb86c8699 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007ff60efd6db0 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4397]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007ff60efec3ec UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:173]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007ff60efec4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007ff60effceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007ff60efffcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffd6c26fd4 KERNEL32.DLL!UnknownFunction []
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: [Callstack] 0x00007fffd731cec1 ntdll.dll!UnknownFunction []
+[2020.05.16-21.22.59:422][987]LogOutputDevice: Error: 
+[2020.05.16-21.22.59:423][987]LogStats:                SubmitErrorReport -  0.000 s

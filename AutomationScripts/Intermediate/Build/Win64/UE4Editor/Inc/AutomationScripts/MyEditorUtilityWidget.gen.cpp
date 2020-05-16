@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	UPackage* Z_Construct_UPackage__Script_AutomationScripts();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner();
+	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter();
+	ENGINE_API UEnum* Z_Construct_UEnum_Engine_TextureCompressionSettings();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
@@ -28,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "DeleteNullSMActors", &UMyEditorUtilityWidget::execDeleteNullSMActors },
 			{ "OrganizeWorldOutliner", &UMyEditorUtilityWidget::execOrganizeWorldOutliner },
+			{ "SetTextureParamter", &UMyEditorUtilityWidget::execSetTextureParamter },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -77,6 +80,29 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter_Statics::Function_MetaDataParams[] = {
+		{ "CallInEditor", "true" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyEditorUtilityWidget, nullptr, "SetTextureParamter", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UMyEditorUtilityWidget_NoRegister()
 	{
 		return UMyEditorUtilityWidget::StaticClass();
@@ -89,11 +115,34 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LinearColorPattern_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_LinearColorPattern;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_LinearColorPattern_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Compression_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Compression;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bSetRGB_MetaData[];
+#endif
+		static void NewProp_bSetRGB_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bSetRGB;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FolderMap_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMapPropertyParams NewProp_FolderMap;
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_FolderMap_Key_KeyProp;
 		static const UE4CodeGen_Private::FNamePropertyParams NewProp_FolderMap_ValueProp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bRecursive_MetaData[];
+#endif
+		static void NewProp_bRecursive_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bRecursive;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FolderPath_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_FolderPath;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -105,6 +154,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyEditorUtilityWidget_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors, "DeleteNullSMActors" }, // 3774292009
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner, "OrganizeWorldOutliner" }, // 437744539
+		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter, "SetTextureParamter" }, // 2206445969
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::Class_MetaDataParams[] = {
@@ -114,6 +164,32 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern_MetaData[] = {
+		{ "Category", "TextureParams" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern = { "LinearColorPattern", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, LinearColorPattern), METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern_Inner = { "LinearColorPattern", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_Compression_MetaData[] = {
+		{ "Category", "TextureParams" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_Compression = { "Compression", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, Compression), Z_Construct_UEnum_Engine_TextureCompressionSettings, METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_Compression_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_Compression_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bSetRGB_MetaData[] = {
+		{ "Category", "TextureParams" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bSetRGB_SetBit(void* Obj)
+	{
+		((UMyEditorUtilityWidget*)Obj)->bSetRGB = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bSetRGB = { "bSetRGB", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyEditorUtilityWidget), &Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bSetRGB_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bSetRGB_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bSetRGB_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap_MetaData[] = {
 		{ "Category", "OrganizeWorldOutline" },
 		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
@@ -122,10 +198,34 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap = { "FolderMap", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, FolderMap), METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap_MetaData)) };
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap_Key_KeyProp = { "FolderMap_Key", nullptr, (EPropertyFlags)0x0000000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap_ValueProp = { "FolderMap", nullptr, (EPropertyFlags)0x0000000000000001, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bRecursive_MetaData[] = {
+		{ "Category", "General" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bRecursive_SetBit(void* Obj)
+	{
+		((UMyEditorUtilityWidget*)Obj)->bRecursive = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bRecursive = { "bRecursive", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyEditorUtilityWidget), &Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bRecursive_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bRecursive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bRecursive_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath_MetaData[] = {
+		{ "Category", "General" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath = { "FolderPath", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyEditorUtilityWidget, FolderPath), METADATA_PARAMS(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyEditorUtilityWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_LinearColorPattern_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_Compression,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bSetRGB,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderMap_ValueProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_bRecursive,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyEditorUtilityWidget_Statics::NewProp_FolderPath,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMyEditorUtilityWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UMyEditorUtilityWidget>::IsAbstract,
@@ -154,7 +254,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 3130793740);
+	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 3889561524);
 	template<> AUTOMATIONSCRIPTS_API UClass* StaticClass<UMyEditorUtilityWidget>()
 	{
 		return UMyEditorUtilityWidget::StaticClass();

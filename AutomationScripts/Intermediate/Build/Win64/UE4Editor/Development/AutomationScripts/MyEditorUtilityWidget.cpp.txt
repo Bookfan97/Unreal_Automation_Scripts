@@ -126,3 +126,5 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Inc\AutomationScripts\MyEditorUtilityWidget.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Editor\EditorScriptingUtilities\Source\EditorScriptingUtilities\Public\EditorLevelLibrary.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Editor\EditorScriptingUtilities\Intermediate\Build\Win64\UE4Editor\Inc\EditorScriptingUtilities\EditorLevelLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Editor\EditorScriptingUtilities\Source\EditorScriptingUtilities\Public\EditorAssetLibrary.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Editor\EditorScriptingUtilities\Intermediate\Build\Win64\UE4Editor\Inc\EditorScriptingUtilities\EditorAssetLibrary.generated.h
