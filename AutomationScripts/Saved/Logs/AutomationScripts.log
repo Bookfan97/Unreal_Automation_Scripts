@@ -658,3 +658,107 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.16-04.19.40:674][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
 [2020.05.16-04.19.40:684][670]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3037 classes and 728 folders.
 [2020.05.16-04.19.40:686][670]Display: HotReload took  0.2s.
+[2020.05.16-04.22.07:949][917]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.16-04.22.07:949][917]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.05.16-04.22.07:999][917]LogSlate: Took 0.006540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.16-04.22.33:626][460]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.16-04.22.43:346][614]Candidate modules for hot reload:
+[2020.05.16-04.22.43:346][614]  AutomationScripts
+[2020.05.16-04.22.43:346][614]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AutomationScripts,1661 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject" "E:/Github/Unreal_Automation_Scripts/AutomationScripts/AutomationScripts.uproject"  -IgnoreJunk]
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: New page: Compilation - May 15, 2020, 8:22:53 PM
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_Automation_Scripts).
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Invalidating makefile for AutomationScriptsEditor (source file added)
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Parsing headers for AutomationScriptsEditor
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:   Running UnrealHeaderTool "E:\Github\Unreal_Automation_Scripts\AutomationScripts\AutomationScripts.uproject" "E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\AutomationScriptsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Reflection code generated for AutomationScriptsEditor in 4.5515776 seconds
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Building AutomationScriptsEditor...
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Building 6 actions with 16 processes...
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:   [1/6] AutomationScripts.init.gen.cpp
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:   [2/6] MyEditorUtilityWidget.cpp
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:   [3/6] MyEditorUtilityWidget.gen.cpp
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:   [4/6] UE4Editor-AutomationScripts-1661.lib
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1661.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1661.exp
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:   [5/6] UE4Editor-AutomationScripts-1661.dll
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:      Creating library E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1661.suppressed.lib and object E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\UE4Editor-AutomationScripts-1661.suppressed.exp
+[2020.05.16-04.22.53:516][614]CompilerResultsLog:   [6/6] AutomationScriptsEditor.target
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Total time in Parallel executor: 3.76 seconds
+[2020.05.16-04.22.53:516][614]CompilerResultsLog: Total execution time: 10.10 seconds
+[2020.05.16-04.22.53:516][614]LogMainFrame: MainFrame: Module compiling took 10.174 seconds
+[2020.05.16-04.22.53:540][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.05.16-04.22.53:553][614]LogClass: Could not find existing class MyEditorUtilityWidget in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.16-04.22.53:554][614]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.16-04.22.53:558][614]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.05.16-04.22.53:603][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.05.16-04.22.53:613][614]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-04.22.53:613][614]Display: HotReload took 10.3s.
+[2020.05.16-04.22.53:614][614]Warning: HotReload operation took 10.3s.
+[2020.05.16-04.22.53:842][614]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Source/AutomationScripts/MyEditorUtilityWidget.h'
+[2020.05.16-04.22.53:972][614]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Source/AutomationScripts/MyEditorUtilityWidget.cpp'
+[2020.05.16-04.22.53:976][614]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.16-04.22.53:986][614]LogHotReload: New module detected: UE4Editor-AutomationScripts-1661.dll
+[2020.05.16-04.22.54:044][615]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.16-04.22.54:163][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.05.16-04.22.54:165][615]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.16-04.22.54:169][615]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.16-04.22.54:193][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.05.16-04.22.54:203][615]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-04.22.54:206][615]Display: HotReload took  0.2s.
+[2020.05.16-04.28.38:335][639]LogHotReload: New module detected: UE4Editor-AutomationScripts-0012.dll
+[2020.05.16-04.28.39:024][642]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.16-04.28.39:067][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.16-04.28.39:083][642]LogClass: Could not find existing class MyEditorUtilityWidget in package /Script/AutomationScripts for HotReload, assuming new class
+[2020.05.16-04.28.39:083][642]LogClass: Function Test is new.
+[2020.05.16-04.28.39:085][642]LogHotReload: Re-instancing MyEditorUtilityWidget after hot-reload.
+[2020.05.16-04.28.39:153][642]LogContentBrowser: Native class hierarchy updated for 'AutomationScripts' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.16-04.28.39:157][642]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.05.16-04.28.39:202][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.05.16-04.28.39:211][642]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3038 classes and 728 folders.
+[2020.05.16-04.28.39:214][642]Display: HotReload took  0.2s.
+[2020.05.16-04.30.57:893][606]LogAssetEditorSubsystem: Opening Asset editor for EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.30.58:133][606]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.05.16-04.31.23:050][441]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.05.16-04.31.23:050][441]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.050
+[2020.05.16-04.31.23:050][441]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewEditorUtilityWidgetBlueprint] ([1] browsable assets)...
+[2020.05.16-04.31.23:050][441]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewEditorUtilityWidgetBlueprint]
+[2020.05.16-04.31.23:058][441]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint_651D19F94044D27F40EC179661D9BBB2.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/NewEditorUtilityWidgetBlueprint_Auto1.uasset'
+[2020.05.16-04.31.23:058][441]LogFileHelpers: Auto-saving content packages took 0.008
+[2020.05.16-04.44.12:143][709]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-04.55.16:594][757]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.16-04.55.37:798][821]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.16-04.55.57:225][536]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.05.16-04.55.57:251][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-04.55.57:259][536]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprintCDFF09544C5EA73A754E7488C386E7D8.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-04.55.57:263][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BugFix2" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BugFix2.uasset" SILENT=true
+[2020.05.16-04.55.57:269][536]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/BugFix24E8AD47D43ABB70336D93AB2010EEF6E.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/BugFix2.uasset'
+[2020.05.16-04.55.57:288][536]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.16-04.55.57:288][536]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.55.57:288][536]LogContentValidation: Display: Validating WidgetBlueprint /Game/BugFix2.BugFix2
+[2020.05.16-04.56.00:575][909]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.16-04.56.16:060][812]LogBlueprint: Warning: Reparenting blueprint EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint from EditorUtilityWidget to MyEditorUtilityWidget...
+[2020.05.16-04.56.16:062][812]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.56.16:094][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.05.16-04.56.22:270][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-04.56.22:284][956]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprintC4F2DCEA428637C89D90AA876693B3B4.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-04.56.22:295][956]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.56.22:295][956]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.57.08:629][603]LogSlate: Took 0.009813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.05.16-04.58.43:837][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-04.58.43:845][487]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint77ED1F894F9E904E3AEC5DBB79034D80.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-04.58.43:855][487]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.58.43:855][487]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.58.46:296][771]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.58.46:463][771]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.05.16-04.58.52:959][ 63]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-04.58.52:963][ 63]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-04.59.23:123][667]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.59.23:279][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.05.16-04.59.39:238][220]LogSlate: Took 0.007025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.16-04.59.45:194][813]BlueprintLog: New page: Compile NewEditorUtilityWidgetBlueprint
+[2020.05.16-04.59.45:351][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.05.16-04.59.58:089][682]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-04.59.58:094][682]LogSlate: Window 'NewEditorUtilityWidgetBlueprint' being destroyed
+[2020.05.16-05.00.10:467][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewEditorUtilityWidgetBlueprint" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset" SILENT=true
+[2020.05.16-05.00.10:476][220]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/NewEditorUtilityWidgetBlueprint108ADE084BE9209D33D74C9B019F7BCA.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/NewEditorUtilityWidgetBlueprint.uasset'
+[2020.05.16-05.00.10:487][220]AssetCheck: New page: Asset Save: NewEditorUtilityWidgetBlueprint
+[2020.05.16-05.00.10:487][220]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/NewEditorUtilityWidgetBlueprint.NewEditorUtilityWidgetBlueprint

@@ -48,4 +48,14 @@
       <Filter>Source\AutomationScripts</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AutomationScripts\MyEditorUtilityWidget.h">
+      <Filter>Source\AutomationScripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AutomationScripts\MyEditorUtilityWidget.cpp">
+      <Filter>Source\AutomationScripts</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
