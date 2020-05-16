@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_SPARSE_DATA
 #define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execRemoveEmptyFolders) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemoveEmptyFolders(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSearchAndReplace) \
 	{ \
 		P_FINISH; \
@@ -50,6 +58,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define AutomationScripts_Source_AutomationScripts_MyEditorUtilityWidget_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRemoveEmptyFolders) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemoveEmptyFolders(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSearchAndReplace) \
 	{ \

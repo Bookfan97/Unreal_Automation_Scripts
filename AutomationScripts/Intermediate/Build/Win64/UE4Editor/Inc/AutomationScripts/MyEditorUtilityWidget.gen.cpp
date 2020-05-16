@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	UPackage* Z_Construct_UPackage__Script_AutomationScripts();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner();
+	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter();
 	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_ESearchCase();
@@ -32,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "DeleteNullSMActors", &UMyEditorUtilityWidget::execDeleteNullSMActors },
 			{ "OrganizeWorldOutliner", &UMyEditorUtilityWidget::execOrganizeWorldOutliner },
+			{ "RemoveEmptyFolders", &UMyEditorUtilityWidget::execRemoveEmptyFolders },
 			{ "SearchAndReplace", &UMyEditorUtilityWidget::execSearchAndReplace },
 			{ "SetTextureParamter", &UMyEditorUtilityWidget::execSetTextureParamter },
 		};
@@ -80,6 +82,29 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders_Statics::Function_MetaDataParams[] = {
+		{ "CallInEditor", "true" },
+		{ "ModuleRelativePath", "MyEditorUtilityWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyEditorUtilityWidget, nullptr, "RemoveEmptyFolders", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -192,6 +217,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyEditorUtilityWidget_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_DeleteNullSMActors, "DeleteNullSMActors" }, // 3774292009
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_OrganizeWorldOutliner, "OrganizeWorldOutliner" }, // 437744539
+		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_RemoveEmptyFolders, "RemoveEmptyFolders" }, // 2825052759
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_SearchAndReplace, "SearchAndReplace" }, // 2998703084
 		{ &Z_Construct_UFunction_UMyEditorUtilityWidget_SetTextureParamter, "SetTextureParamter" }, // 2206445969
 	};
@@ -317,7 +343,7 @@ void EmptyLinkFunctionForGeneratedCodeMyEditorUtilityWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 1660185451);
+	IMPLEMENT_CLASS(UMyEditorUtilityWidget, 1383706096);
 	template<> AUTOMATIONSCRIPTS_API UClass* StaticClass<UMyEditorUtilityWidget>()
 	{
 		return UMyEditorUtilityWidget::StaticClass();

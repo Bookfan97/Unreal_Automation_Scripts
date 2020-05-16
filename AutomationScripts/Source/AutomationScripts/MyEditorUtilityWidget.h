@@ -51,4 +51,6 @@ public:
 		void SetTextureParamter();
 	UFUNCTION(CallInEditor, BlueprintCallable)
 		void SearchAndReplace();
+	UFUNCTION(CallInEditor, BlueprintCallable)
+		void RemoveEmptyFolders();
 };
