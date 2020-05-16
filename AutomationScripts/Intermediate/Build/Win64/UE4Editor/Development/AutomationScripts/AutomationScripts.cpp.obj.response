@@ -235,6 +235,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\AudioMixerCore\Public
+/I ..\Plugins\Editor\EditorScriptingUtilities\Intermediate\Build\Win64\UE4Editor\Inc\EditorScriptingUtilities
+/I ..\Plugins\Editor\EditorScriptingUtilities\Source
+/I ..\Plugins\Editor\EditorScriptingUtilities\Source\EditorScriptingUtilities\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

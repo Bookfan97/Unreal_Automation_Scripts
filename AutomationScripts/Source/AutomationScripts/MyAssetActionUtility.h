@@ -29,6 +29,8 @@ public:
 		void CheckPowerOfTwo();
 	UFUNCTION(CallInEditor)
 		void AddPrefixes();
+	UFUNCTION(CallInEditor)
+		void CleanupFolder(FString ParentFolder = FString("/Game"));
 private:
 	const TMap<UClass*, FString> PrefixMap = {
 		{UBlueprint::StaticClass(), TEXT("BP_")},

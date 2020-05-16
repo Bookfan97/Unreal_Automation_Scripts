@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 	UPackage* Z_Construct_UPackage__Script_AutomationScripts();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_AddPrefixes();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_CheckPowerOfTwo();
+	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder();
 	AUTOMATIONSCRIPTS_API UFunction* Z_Construct_UFunction_UMyAssetActionUtility_RenameSelectedAssets();
 	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_ESearchCase();
 // End Cross Module References
@@ -28,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddPrefixes", &UMyAssetActionUtility::execAddPrefixes },
 			{ "CheckPowerOfTwo", &UMyAssetActionUtility::execCheckPowerOfTwo },
+			{ "CleanupFolder", &UMyAssetActionUtility::execCleanupFolder },
 			{ "RenameSelectedAssets", &UMyAssetActionUtility::execRenameSelectedAssets },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -75,6 +77,39 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyAssetActionUtility_CheckPowerOfTwo_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics
+	{
+		struct MyAssetActionUtility_eventCleanupFolder_Parms
+		{
+			FString ParentFolder;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ParentFolder;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::NewProp_ParentFolder = { "ParentFolder", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyAssetActionUtility_eventCleanupFolder_Parms, ParentFolder), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::NewProp_ParentFolder,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::Function_MetaDataParams[] = {
+		{ "CallInEditor", "true" },
+		{ "ModuleRelativePath", "MyAssetActionUtility.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyAssetActionUtility, nullptr, "CleanupFolder", nullptr, nullptr, sizeof(MyAssetActionUtility_eventCleanupFolder_Parms), Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -140,6 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyAssetActionUtility_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMyAssetActionUtility_AddPrefixes, "AddPrefixes" }, // 114933757
 		{ &Z_Construct_UFunction_UMyAssetActionUtility_CheckPowerOfTwo, "CheckPowerOfTwo" }, // 2725837170
+		{ &Z_Construct_UFunction_UMyAssetActionUtility_CleanupFolder, "CleanupFolder" }, // 2543757703
 		{ &Z_Construct_UFunction_UMyAssetActionUtility_RenameSelectedAssets, "RenameSelectedAssets" }, // 2903259622
 	};
 #if WITH_METADATA
@@ -177,7 +213,7 @@ void EmptyLinkFunctionForGeneratedCodeMyAssetActionUtility() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyAssetActionUtility, 2073898396);
+	IMPLEMENT_CLASS(UMyAssetActionUtility, 3254521942);
 	template<> AUTOMATIONSCRIPTS_API UClass* StaticClass<UMyAssetActionUtility>()
 	{
 		return UMyAssetActionUtility::StaticClass();

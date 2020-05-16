@@ -16,6 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_SPARSE_DATA
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execCleanupFolder) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_ParentFolder); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CleanupFolder(Z_Param_ParentFolder); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAddPrefixes) \
 	{ \
 		P_FINISH; \
@@ -45,6 +54,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define AutomationScripts_Source_AutomationScripts_MyAssetActionUtility_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCleanupFolder) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_ParentFolder); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CleanupFolder(Z_Param_ParentFolder); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAddPrefixes) \
 	{ \
