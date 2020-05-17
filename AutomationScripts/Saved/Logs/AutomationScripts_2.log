@@ -671,3 +671,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-04.40.01:097][ 38]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.17-04.40.01:097][ 38]LogContentValidation: Display: Validating World /Game/Maps/NewMap.NewMap
 [2020.05.17-04.40.01:097][ 38]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/NewMap_BuiltData.NewMap_BuiltData
+[2020.05.17-04.49.58:786][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.05.17-04.49.58:787][179]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.036
+[2020.05.17-04.49.58:788][179]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/test] ([1] browsable assets)...
+[2020.05.17-04.49.58:788][179]OBJ SavePackage: Finished generating thumbnails for package [/Game/test]
+[2020.05.17-04.49.58:788][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/test_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.05.17-04.49.58:811][179]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/test_Auto11973AAD942C3D875A17D0D86A2082E8C.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/test_Auto1.uasset'
+[2020.05.17-04.49.58:811][179]LogFileHelpers: Auto-saving content packages took 0.024
