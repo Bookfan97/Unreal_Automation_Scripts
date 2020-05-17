@@ -1497,3 +1497,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-05.26.39:697][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
 [2020.05.17-05.26.39:724][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2020.05.17-05.26.39:733][745]LogPython: 51 of 51 to be deleted assets, of 51 selected, removed
+[2020.05.17-05.34.43:892][271]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/world_outliner.py"
+[2020.05.17-05.34.43:899][271]LogPython: Moved SphereReflectionCapture_1 into ReflectionCaptures
+[2020.05.17-05.34.43:899][271]LogPython: Moved Floor into StaticMeshActors
+[2020.05.17-05.34.43:899][271]LogPython: Moved 2 actors into respective folders
+[2020.05.17-05.34.44:022][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.05.17-05.34.44:046][272]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewMap_Auto25B0184B0410BABBBEA5991AF547C1F53.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap'
+[2020.05.17-05.34.44:051][272]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.058
+[2020.05.17-05.34.44:051][272]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.058
