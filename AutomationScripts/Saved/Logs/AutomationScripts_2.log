@@ -733,3 +733,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-04.57.45:780][428]LogPython: Prefixed 1 of 1 assets
 [2020.05.17-04.57.45:785][428]AssetCheck: New page: Asset Save: M_test2
 [2020.05.17-04.57.45:785][428]LogContentValidation: Display: Validating Material /Game/M_test2.M_test2
+[2020.05.17-05.09.32:554][ 70]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/clean_up.py"
+[2020.05.17-05.09.32:555][ 70]LogPython: Cleaned up 0 of 0 assets
