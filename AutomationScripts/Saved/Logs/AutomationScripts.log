@@ -621,3 +621,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-18.36.45:292][192]LogPython: Error: ImportError: No module named PySide
 [2020.05.17-19.13.03:240][949]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/delete_empty_folders.py"
 [2020.05.17-19.13.03:249][949]LogPython: Deleted 0 folders without assets
+[2020.05.17-19.22.14:521][310]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/actor_action_util.py"
+[2020.05.17-19.22.14:522][310]LogPython: Warning: Please select the to be assigned material
+[2020.05.17-19.22.42:948][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
