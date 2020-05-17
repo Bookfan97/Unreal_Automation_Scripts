@@ -735,3 +735,508 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-04.57.45:785][428]LogContentValidation: Display: Validating Material /Game/M_test2.M_test2
 [2020.05.17-05.09.32:554][ 70]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/clean_up.py"
 [2020.05.17-05.09.32:555][ 70]LogPython: Cleaned up 0 of 0 assets
+[2020.05.17-05.16.05:836][ 77]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/duplicator.py"
+[2020.05.17-05.16.05:889][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_0, compiling. 
+[2020.05.17-05.16.05:941][ 77]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.05.17-05.16.05:941][ 77]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.17-05.16.05:941][ 77]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.05.17-05.16.05:941][ 77]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.05.17-05.16.05:941][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_1, compiling. 
+[2020.05.17-05.16.05:965][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_2, compiling. 
+[2020.05.17-05.16.05:986][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_3, compiling. 
+[2020.05.17-05.16.06:008][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_4, compiling. 
+[2020.05.17-05.16.06:043][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_5, compiling. 
+[2020.05.17-05.16.06:083][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_6, compiling. 
+[2020.05.17-05.16.06:118][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_7, compiling. 
+[2020.05.17-05.16.06:144][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_8, compiling. 
+[2020.05.17-05.16.06:167][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_9, compiling. 
+[2020.05.17-05.16.06:196][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_10, compiling. 
+[2020.05.17-05.16.06:222][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_11, compiling. 
+[2020.05.17-05.16.06:253][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_12, compiling. 
+[2020.05.17-05.16.06:288][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_13, compiling. 
+[2020.05.17-05.16.06:322][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_14, compiling. 
+[2020.05.17-05.16.06:356][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_15, compiling. 
+[2020.05.17-05.16.06:377][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_16, compiling. 
+[2020.05.17-05.16.06:401][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_17, compiling. 
+[2020.05.17-05.16.06:428][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_18, compiling. 
+[2020.05.17-05.16.06:452][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_19, compiling. 
+[2020.05.17-05.16.06:479][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_20, compiling. 
+[2020.05.17-05.16.06:506][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_21, compiling. 
+[2020.05.17-05.16.06:541][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_22, compiling. 
+[2020.05.17-05.16.06:569][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_23, compiling. 
+[2020.05.17-05.16.06:598][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_24, compiling. 
+[2020.05.17-05.16.06:619][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_25, compiling. 
+[2020.05.17-05.16.06:643][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_26, compiling. 
+[2020.05.17-05.16.06:666][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_27, compiling. 
+[2020.05.17-05.16.06:694][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_28, compiling. 
+[2020.05.17-05.16.06:721][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_29, compiling. 
+[2020.05.17-05.16.06:756][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_30, compiling. 
+[2020.05.17-05.16.06:798][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_31, compiling. 
+[2020.05.17-05.16.06:833][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_32, compiling. 
+[2020.05.17-05.16.06:869][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_33, compiling. 
+[2020.05.17-05.16.06:907][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_34, compiling. 
+[2020.05.17-05.16.06:937][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_35, compiling. 
+[2020.05.17-05.16.06:976][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_36, compiling. 
+[2020.05.17-05.16.07:010][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_37, compiling. 
+[2020.05.17-05.16.07:046][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_38, compiling. 
+[2020.05.17-05.16.07:080][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_39, compiling. 
+[2020.05.17-05.16.07:114][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_40, compiling. 
+[2020.05.17-05.16.07:148][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_41, compiling. 
+[2020.05.17-05.16.07:181][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_42, compiling. 
+[2020.05.17-05.16.07:211][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_43, compiling. 
+[2020.05.17-05.16.07:241][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_44, compiling. 
+[2020.05.17-05.16.07:272][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_45, compiling. 
+[2020.05.17-05.16.07:312][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_46, compiling. 
+[2020.05.17-05.16.07:343][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_47, compiling. 
+[2020.05.17-05.16.07:377][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_48, compiling. 
+[2020.05.17-05.16.07:411][ 77]LogMaterial: Display: Missing cached shader map for material M_test2_49, compiling. 
+[2020.05.17-05.16.07:438][ 77]LogPython: 1 asset/s duplicated 50 times in 1.59800004959 seconds
+[2020.05.17-05.16.07:776][ 78]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 735
+[2020.05.17-05.16.08:403][ 98]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 725
+[2020.05.17-05.16.08:675][109]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 715
+[2020.05.17-05.16.08:860][112]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 705
+[2020.05.17-05.16.10:241][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2.uasset" SILENT=true
+[2020.05.17-05.16.10:266][232]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test24DAC759B4C12E499C50E23AB1739B35E.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2.uasset'
+[2020.05.17-05.16.10:291][232]AssetCheck: New page: Asset Save: M_test2
+[2020.05.17-05.16.10:291][232]LogContentValidation: Display: Validating Material /Game/M_test2.M_test2
+[2020.05.17-05.16.14:449][646]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 695
+[2020.05.17-05.16.14:818][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 685
+[2020.05.17-05.16.16:203][829]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 675
+[2020.05.17-05.16.16:737][885]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 665
+[2020.05.17-05.16.20:865][324]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 655
+[2020.05.17-05.16.21:582][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.17-05.16.21:992][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.17-05.16.22:006][422]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.05.17-05.16.22:699][472]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 645
+[2020.05.17-05.16.22:878][486]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 635
+[2020.05.17-05.16.23:914][564]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 625
+[2020.05.17-05.16.28:206][931]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 615
+[2020.05.17-05.16.28:942][988]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 605
+[2020.05.17-05.16.30:028][ 83]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 595
+[2020.05.17-05.16.31:113][176]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 585
+[2020.05.17-05.16.35:357][546]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 575
+[2020.05.17-05.16.35:794][584]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 565
+[2020.05.17-05.16.37:854][762]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 555
+[2020.05.17-05.16.38:887][851]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 545
+[2020.05.17-05.16.41:497][ 78]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 535
+[2020.05.17-05.16.43:303][232]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 525
+[2020.05.17-05.16.45:094][388]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 515
+[2020.05.17-05.16.45:460][421]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 505
+[2020.05.17-05.16.49:003][727]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 495
+[2020.05.17-05.16.50:888][887]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 485
+[2020.05.17-05.16.51:190][912]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 475
+[2020.05.17-05.16.52:690][ 42]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 465
+[2020.05.17-05.16.56:703][379]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 455
+[2020.05.17-05.16.57:146][418]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 445
+[2020.05.17-05.16.58:797][546]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 435
+[2020.05.17-05.17.00:469][619]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 425
+[2020.05.17-05.17.02:922][763]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 415
+[2020.05.17-05.17.03:124][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.05.17-05.17.03:187][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_0" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_0.uasset" SILENT=true
+[2020.05.17-05.17.03:211][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_006A488D54D8A2396276AF3857C690ADA.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_0.uasset'
+[2020.05.17-05.17.03:234][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_1" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_1.uasset" SILENT=true
+[2020.05.17-05.17.03:281][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_115BCDEA646E45382BFB935A2952AFCA5.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_1.uasset'
+[2020.05.17-05.17.03:297][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_2" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_2.uasset" SILENT=true
+[2020.05.17-05.17.03:321][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_26888D7C74FAF3CC05E6305B079AF180C.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_2.uasset'
+[2020.05.17-05.17.03:339][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_3" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_3.uasset" SILENT=true
+[2020.05.17-05.17.03:363][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_3E3AE33A443514AA34792AFA6E9670FEE.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_3.uasset'
+[2020.05.17-05.17.03:380][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_4" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_4.uasset" SILENT=true
+[2020.05.17-05.17.03:408][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_4961CA9864A34954D102D2CA0C0C06C07.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_4.uasset'
+[2020.05.17-05.17.03:424][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_5" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_5.uasset" SILENT=true
+[2020.05.17-05.17.03:446][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_59EF5FADB47C761C8AA05BB9CE5A05341.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_5.uasset'
+[2020.05.17-05.17.03:462][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_6" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_6.uasset" SILENT=true
+[2020.05.17-05.17.03:484][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_65F56998A46187C88CDCB738B9E09AFB2.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_6.uasset'
+[2020.05.17-05.17.03:501][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_7" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_7.uasset" SILENT=true
+[2020.05.17-05.17.03:520][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_7D33028ED4E657EAA70F6D9BCDEA9FD20.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_7.uasset'
+[2020.05.17-05.17.03:534][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_8" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_8.uasset" SILENT=true
+[2020.05.17-05.17.03:556][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_8606D06114205EFF9FB0F9697FF3FB208.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_8.uasset'
+[2020.05.17-05.17.03:571][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_9" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_9.uasset" SILENT=true
+[2020.05.17-05.17.03:600][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_91FC11855430433E45EE77684A123ADC1.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_9.uasset'
+[2020.05.17-05.17.03:618][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_10" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_10.uasset" SILENT=true
+[2020.05.17-05.17.03:641][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_10316BC95444598A6FE587AEB0F1F3D238.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_10.uasset'
+[2020.05.17-05.17.03:658][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_11" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_11.uasset" SILENT=true
+[2020.05.17-05.17.03:683][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_11AA8077F2496CC2D87D038085C36B01B4.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_11.uasset'
+[2020.05.17-05.17.03:701][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_12" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_12.uasset" SILENT=true
+[2020.05.17-05.17.03:722][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_12682D464742213A7D0AACAC8ACD1CFEAA.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_12.uasset'
+[2020.05.17-05.17.03:739][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_13" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_13.uasset" SILENT=true
+[2020.05.17-05.17.03:761][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_13DDF451F2416991C8BDB419B84C7AE684.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_13.uasset'
+[2020.05.17-05.17.03:777][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_14" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_14.uasset" SILENT=true
+[2020.05.17-05.17.03:802][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_14D7B4FEC5412C616ACEC0D993BEE52C06.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_14.uasset'
+[2020.05.17-05.17.03:820][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_15" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_15.uasset" SILENT=true
+[2020.05.17-05.17.03:843][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_15D32A44974771B5769D125BBD33DDE8FD.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_15.uasset'
+[2020.05.17-05.17.03:859][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_16" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_16.uasset" SILENT=true
+[2020.05.17-05.17.03:883][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_161B3300E345313A1DD7A7908B4037D591.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_16.uasset'
+[2020.05.17-05.17.03:901][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_17" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_17.uasset" SILENT=true
+[2020.05.17-05.17.03:926][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_1766674E2E4DAFDC305CE4B9BC5B32F5A3.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_17.uasset'
+[2020.05.17-05.17.03:943][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_18" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_18.uasset" SILENT=true
+[2020.05.17-05.17.03:966][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_181D82DC284C7A02B8657049ACF53E9336.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_18.uasset'
+[2020.05.17-05.17.03:983][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_19" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_19.uasset" SILENT=true
+[2020.05.17-05.17.04:012][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_192BBFB451429336B6174DC59DF936FA69.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_19.uasset'
+[2020.05.17-05.17.04:222][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 405
+[2020.05.17-05.17.04:259][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_20" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_20.uasset" SILENT=true
+[2020.05.17-05.17.04:284][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_20A20D06304FF3032F582A7BB2C348DE35.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_20.uasset'
+[2020.05.17-05.17.05:153][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 395
+[2020.05.17-05.17.05:153][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 385
+[2020.05.17-05.17.05:183][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_21" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_21.uasset" SILENT=true
+[2020.05.17-05.17.05:207][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_21076D033F419C43064F519693B1D33EFB.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_21.uasset'
+[2020.05.17-05.17.07:572][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 375
+[2020.05.17-05.17.07:635][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_22" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_22.uasset" SILENT=true
+[2020.05.17-05.17.07:662][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_22A59B7DC3403D5876B58E77845BF14BD2.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_22.uasset'
+[2020.05.17-05.17.08:683][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 365
+[2020.05.17-05.17.08:684][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 355
+[2020.05.17-05.17.08:725][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_23" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_23.uasset" SILENT=true
+[2020.05.17-05.17.08:749][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_23BCDFB22C4B68B8039B8D69B4552711D1.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_23.uasset'
+[2020.05.17-05.17.09:735][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 345
+[2020.05.17-05.17.09:772][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_24" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_24.uasset" SILENT=true
+[2020.05.17-05.17.09:806][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_246F21E6324E052C4D04E7EB911AEB7C13.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_24.uasset'
+[2020.05.17-05.17.12:441][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 335
+[2020.05.17-05.17.12:441][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 325
+[2020.05.17-05.17.12:476][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_25" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_25.uasset" SILENT=true
+[2020.05.17-05.17.12:499][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_25AC304453491C80BA5BD0FB9CCC3893B9.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_25.uasset'
+[2020.05.17-05.17.13:159][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 315
+[2020.05.17-05.17.13:193][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_26" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_26.uasset" SILENT=true
+[2020.05.17-05.17.13:213][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_26214F41634E37BED41BAB1F9834CB354E.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_26.uasset'
+[2020.05.17-05.17.15:516][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 305
+[2020.05.17-05.17.15:516][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 295
+[2020.05.17-05.17.15:551][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_27" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_27.uasset" SILENT=true
+[2020.05.17-05.17.15:574][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_27CFE0178047D9D910E959E785968404C3.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_27.uasset'
+[2020.05.17-05.17.16:543][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 285
+[2020.05.17-05.17.16:577][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_28" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_28.uasset" SILENT=true
+[2020.05.17-05.17.16:603][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_2831355421438FC353AAAD4D9180C04E72.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_28.uasset'
+[2020.05.17-05.17.17:603][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 275
+[2020.05.17-05.17.17:604][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 265
+[2020.05.17-05.17.17:638][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_29" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_29.uasset" SILENT=true
+[2020.05.17-05.17.17:669][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_296BA3177D4EEE1D604BFAF48CF5913F8E.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_29.uasset'
+[2020.05.17-05.17.19:708][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 255
+[2020.05.17-05.17.19:741][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_30" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_30.uasset" SILENT=true
+[2020.05.17-05.17.19:770][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_307667856E4AFD3B441818D2A57A5726F7.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_30.uasset'
+[2020.05.17-05.17.20:881][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 245
+[2020.05.17-05.17.20:881][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 235
+[2020.05.17-05.17.20:926][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_31" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_31.uasset" SILENT=true
+[2020.05.17-05.17.20:951][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_31CEEBDC6A4EA3C45A39993A8E19A70968.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_31.uasset'
+[2020.05.17-05.17.21:954][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 225
+[2020.05.17-05.17.21:987][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_32" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_32.uasset" SILENT=true
+[2020.05.17-05.17.22:011][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_3269C2277B4940EDA12034E5AEE3D9DC6C.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_32.uasset'
+[2020.05.17-05.17.24:234][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 215
+[2020.05.17-05.17.24:234][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 205
+[2020.05.17-05.17.24:274][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_33" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_33.uasset" SILENT=true
+[2020.05.17-05.17.24:301][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_334E3058DB4451811F6541AE91A26B5D1D.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_33.uasset'
+[2020.05.17-05.17.24:972][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 195
+[2020.05.17-05.17.25:002][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_34" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_34.uasset" SILENT=true
+[2020.05.17-05.17.25:025][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_34968730A74E2A06B636F020B6FCD9E555.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_34.uasset'
+[2020.05.17-05.17.27:208][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 185
+[2020.05.17-05.17.27:208][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 175
+[2020.05.17-05.17.27:241][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_35" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_35.uasset" SILENT=true
+[2020.05.17-05.17.27:264][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_3576E6548B4E787E6E659AE4992A4B92DD.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_35.uasset'
+[2020.05.17-05.17.28:186][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 165
+[2020.05.17-05.17.28:219][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_36" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_36.uasset" SILENT=true
+[2020.05.17-05.17.28:244][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_36DE4B75E2461AC6B22FAE15A65DE29887.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_36.uasset'
+[2020.05.17-05.17.29:440][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 155
+[2020.05.17-05.17.29:440][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 145
+[2020.05.17-05.17.29:473][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_37" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_37.uasset" SILENT=true
+[2020.05.17-05.17.29:494][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_375CD8D6CD41F77B129DD3229EC3DF06A7.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_37.uasset'
+[2020.05.17-05.17.31:403][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 135
+[2020.05.17-05.17.31:436][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_38" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_38.uasset" SILENT=true
+[2020.05.17-05.17.31:456][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_3893552FA0460F68978BA2468B4E03F9D6.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_38.uasset'
+[2020.05.17-05.17.32:355][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 125
+[2020.05.17-05.17.32:355][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 115
+[2020.05.17-05.17.32:386][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_39" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_39.uasset" SILENT=true
+[2020.05.17-05.17.32:407][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_3983449BA341D4D7F2DE7527A70777A997.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_39.uasset'
+[2020.05.17-05.17.33:462][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 105
+[2020.05.17-05.17.33:496][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_40" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_40.uasset" SILENT=true
+[2020.05.17-05.17.33:521][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_407D724C684D83257C4EAB3FA4FA71BE51.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_40.uasset'
+[2020.05.17-05.17.35:647][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 95
+[2020.05.17-05.17.35:647][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 85
+[2020.05.17-05.17.35:680][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_41" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_41.uasset" SILENT=true
+[2020.05.17-05.17.35:701][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_41374C28B0409CEC20695350AC9A9AA33E.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_41.uasset'
+[2020.05.17-05.17.36:318][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 75
+[2020.05.17-05.17.36:353][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_42" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_42.uasset" SILENT=true
+[2020.05.17-05.17.36:374][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_42FEA109C541770CC7C21AE59A202C6635.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_42.uasset'
+[2020.05.17-05.17.38:928][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 65
+[2020.05.17-05.17.38:928][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 55
+[2020.05.17-05.17.38:961][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_43" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_43.uasset" SILENT=true
+[2020.05.17-05.17.38:983][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_432DCB443F434E9CE3F903EDBA091A204D.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_43.uasset'
+[2020.05.17-05.17.39:736][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 45
+[2020.05.17-05.17.39:769][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_44" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_44.uasset" SILENT=true
+[2020.05.17-05.17.39:797][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_441009CB474231EEFF30E618BDF8F43250.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_44.uasset'
+[2020.05.17-05.17.40:949][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2020.05.17-05.17.40:949][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.05.17-05.17.40:982][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_45" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_45.uasset" SILENT=true
+[2020.05.17-05.17.41:007][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_45C168BBC7402C117392CF57BF934A7D4A.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_45.uasset'
+[2020.05.17-05.17.43:050][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.05.17-05.17.43:085][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_46" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_46.uasset" SILENT=true
+[2020.05.17-05.17.43:110][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_46C25A31454AEA8E4261E88DAC1E898F47.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_46.uasset'
+[2020.05.17-05.17.43:881][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.05.17-05.17.43:881][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.05.17-05.17.43:911][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_47" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_47.uasset" SILENT=true
+[2020.05.17-05.17.43:934][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_475A5C17CD40363876BC5553BD54C7D685.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_47.uasset'
+[2020.05.17-05.17.44:601][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.17-05.17.44:601][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.05.17-05.17.44:634][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_48" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_48.uasset" SILENT=true
+[2020.05.17-05.17.44:662][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_4872CD29D74DFBFED2EF6042BFA09A3C9B.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_48.uasset'
+[2020.05.17-05.17.45:582][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.05.17-05.17.45:582][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.17-05.17.45:582][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.05.17-05.17.45:609][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2_49" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_49.uasset" SILENT=true
+[2020.05.17-05.17.45:626][777]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test2_499CE4AF604732640841FB5CB5FDD0A87E.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2_49.uasset'
+[2020.05.17-05.17.45:878][777]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_0.M_test2_0
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_1.M_test2_1
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_2.M_test2_2
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_3.M_test2_3
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_4.M_test2_4
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_5.M_test2_5
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_6.M_test2_6
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_7.M_test2_7
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_8.M_test2_8
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_9.M_test2_9
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_10.M_test2_10
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_11.M_test2_11
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_12.M_test2_12
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_13.M_test2_13
+[2020.05.17-05.17.45:878][777]LogContentValidation: Display: Validating Material /Game/M_test2_14.M_test2_14
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_15.M_test2_15
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_16.M_test2_16
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_17.M_test2_17
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_18.M_test2_18
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_19.M_test2_19
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_20.M_test2_20
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_21.M_test2_21
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_22.M_test2_22
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_23.M_test2_23
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_24.M_test2_24
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_25.M_test2_25
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_26.M_test2_26
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_27.M_test2_27
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_28.M_test2_28
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_29.M_test2_29
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_30.M_test2_30
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_31.M_test2_31
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_32.M_test2_32
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_33.M_test2_33
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_34.M_test2_34
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_35.M_test2_35
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_36.M_test2_36
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_37.M_test2_37
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_38.M_test2_38
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_39.M_test2_39
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_40.M_test2_40
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_41.M_test2_41
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_42.M_test2_42
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_43.M_test2_43
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_44.M_test2_44
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_45.M_test2_45
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_46.M_test2_46
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_47.M_test2_47
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_48.M_test2_48
+[2020.05.17-05.17.45:879][777]LogContentValidation: Display: Validating Material /Game/M_test2_49.M_test2_49
+[2020.05.17-05.17.52:850][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.05.17-05.18.01:763][214]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.17-05.18.02:167][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.05.17-05.18.02:192][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.05.17-05.18.02:218][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.05.17-05.18.02:246][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:274][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.05.17-05.18.02:298][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.02:326][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.02:349][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:378][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:402][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.02:425][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.05.17-05.18.02:452][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:476][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:500][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.17-05.18.02:525][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.18.02:551][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.05.17-05.18.02:577][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.18.02:601][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.05.17-05.18.02:626][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.17-05.18.02:650][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.18.02:674][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.18.02:700][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.18.02:723][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:747][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.18.02:772][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.05.17-05.18.02:799][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.02:823][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:847][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.02:871][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.02:895][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:922][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.02:948][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.02:974][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.18.02:999][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.17-05.18.03:023][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.18.03:047][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.05.17-05.18.03:073][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.03:099][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.03:124][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.18.03:148][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.18.03:172][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.03:197][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.18.03:227][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.17-05.18.03:252][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.03:278][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.03:302][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.17-05.18.03:329][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.05.17-05.18.03:355][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.18.03:379][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.18.03:405][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.18.03:441][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.05.17-05.18.03:468][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.18.54:340][130]Cmd: py "D:/GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/duplicator.py"
+[2020.05.17-05.18.54:580][130]LogPython: 1 asset/s duplicated 50 times in 0.238999843597 seconds
+[2020.05.17-05.18.57:265][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_24" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_24.uasset" SILENT=true
+[2020.05.17-05.18.57:274][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_2462DD0AF9449CE59BFA0725910933F828.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_24.uasset'
+[2020.05.17-05.18.57:277][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_23" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_23.uasset" SILENT=true
+[2020.05.17-05.18.57:283][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_2315E7224B47CF3F987D6AEA8B9EE33023.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_23.uasset'
+[2020.05.17-05.18.57:285][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_22" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_22.uasset" SILENT=true
+[2020.05.17-05.18.57:292][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_225ABEEE2F4F773587FDFA4E9D2695A476.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_22.uasset'
+[2020.05.17-05.18.57:294][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_21" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_21.uasset" SILENT=true
+[2020.05.17-05.18.57:301][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_21AF07E72B4BE5690FC782CB95AF55152D.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_21.uasset'
+[2020.05.17-05.18.57:303][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_20" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_20.uasset" SILENT=true
+[2020.05.17-05.18.57:310][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_2091CC80DB4B4358D0F4595FA60D81F627.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_20.uasset'
+[2020.05.17-05.18.57:312][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_19" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_19.uasset" SILENT=true
+[2020.05.17-05.18.57:320][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_190D2F9C77450E9FD3D6F50284F0AC9094.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_19.uasset'
+[2020.05.17-05.18.57:322][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_18" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_18.uasset" SILENT=true
+[2020.05.17-05.18.57:328][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_18A615CA444AA465B4AC8B6D8CDF2C18C8.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_18.uasset'
+[2020.05.17-05.18.57:330][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_17" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_17.uasset" SILENT=true
+[2020.05.17-05.18.57:338][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_17E64EAB5D482FE75606CB929D05EB3967.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_17.uasset'
+[2020.05.17-05.18.57:340][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_16" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_16.uasset" SILENT=true
+[2020.05.17-05.18.57:346][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_167BFC5D924A6A9AD1851352A7F2FCC640.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_16.uasset'
+[2020.05.17-05.18.57:348][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_49" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_49.uasset" SILENT=true
+[2020.05.17-05.18.57:355][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_4942A5DEC3493C159D8639598F08C6BBDE.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_49.uasset'
+[2020.05.17-05.18.57:357][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_15" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_15.uasset" SILENT=true
+[2020.05.17-05.18.57:363][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_15556477F449DA9B0143C122AA6B29A168.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_15.uasset'
+[2020.05.17-05.18.57:366][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_48" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_48.uasset" SILENT=true
+[2020.05.17-05.18.57:372][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_486C5AA91A48110D8810CC67853C3966BF.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_48.uasset'
+[2020.05.17-05.18.57:374][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_14" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_14.uasset" SILENT=true
+[2020.05.17-05.18.57:381][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_149F5FFA05461F761A9CFA759989AA11C8.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_14.uasset'
+[2020.05.17-05.18.57:383][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_47" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_47.uasset" SILENT=true
+[2020.05.17-05.18.57:390][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_4724043312438D98F6F390DF94E289FF79.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_47.uasset'
+[2020.05.17-05.18.57:391][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_13" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_13.uasset" SILENT=true
+[2020.05.17-05.18.57:398][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_135011AB2D488B572A37827987AB0002A3.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_13.uasset'
+[2020.05.17-05.18.57:401][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_46" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_46.uasset" SILENT=true
+[2020.05.17-05.18.57:408][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_4685FCF2C14B1D83DCC11379B5D60343E7.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_46.uasset'
+[2020.05.17-05.18.57:410][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_12" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_12.uasset" SILENT=true
+[2020.05.17-05.18.57:417][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_1214CD669F48439388A82BCF9260095D06.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_12.uasset'
+[2020.05.17-05.18.57:419][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_45" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_45.uasset" SILENT=true
+[2020.05.17-05.18.57:425][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_4553585AA540C43EA5788833811C665617.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_45.uasset'
+[2020.05.17-05.18.57:427][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_11" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_11.uasset" SILENT=true
+[2020.05.17-05.18.57:435][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_11D41F04774860B3952A1BF2A68A79EE33.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_11.uasset'
+[2020.05.17-05.18.57:437][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_44" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_44.uasset" SILENT=true
+[2020.05.17-05.18.57:443][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_4457452E3E4E69022572ADC2B138AE2B13.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_44.uasset'
+[2020.05.17-05.18.57:445][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_10" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_10.uasset" SILENT=true
+[2020.05.17-05.18.57:452][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_10D806B748417DB6BABF2A3A94D999B5A4.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_10.uasset'
+[2020.05.17-05.18.57:454][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_43" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_43.uasset" SILENT=true
+[2020.05.17-05.18.57:460][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_430C2D6F704EC93E20EE7E1CBCCD14022C.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_43.uasset'
+[2020.05.17-05.18.57:462][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_9" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_9.uasset" SILENT=true
+[2020.05.17-05.18.57:473][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_979E6B2C94845FF8824A4498AD5D22C89.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_9.uasset'
+[2020.05.17-05.18.57:475][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_42" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_42.uasset" SILENT=true
+[2020.05.17-05.18.57:482][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_420D3A8D5B44A77DFF430293BDBFA486B3.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_42.uasset'
+[2020.05.17-05.18.57:484][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_8" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_8.uasset" SILENT=true
+[2020.05.17-05.18.57:490][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_8D1F80DA84A65B9CE854EC1AB456B0E7D.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_8.uasset'
+[2020.05.17-05.18.57:492][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_41" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_41.uasset" SILENT=true
+[2020.05.17-05.18.57:499][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_4179B78064409333D2F0156CB7CCA597D4.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_41.uasset'
+[2020.05.17-05.18.57:501][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_7" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_7.uasset" SILENT=true
+[2020.05.17-05.18.57:507][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_74A25F90B47FE68403CF4D9B6BC1964DC.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_7.uasset'
+[2020.05.17-05.18.57:509][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_40" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_40.uasset" SILENT=true
+[2020.05.17-05.18.57:516][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_40D6C4249043A2ABDE4FC574AC740BDD5B.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_40.uasset'
+[2020.05.17-05.18.57:518][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_6" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_6.uasset" SILENT=true
+[2020.05.17-05.18.57:525][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_6DF986F24415199ED709F718D722AAC3E.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_6.uasset'
+[2020.05.17-05.18.57:527][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_39" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_39.uasset" SILENT=true
+[2020.05.17-05.18.57:536][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_393EF4060046D3D27F302733ABB3171BB9.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_39.uasset'
+[2020.05.17-05.18.57:538][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_5" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_5.uasset" SILENT=true
+[2020.05.17-05.18.57:545][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_50594D1DB4846A605CE2C9C8837B025E1.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_5.uasset'
+[2020.05.17-05.18.57:547][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_38" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_38.uasset" SILENT=true
+[2020.05.17-05.18.57:554][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_3809C7C7F84950A17F94F5BAAF2F96ABF8.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_38.uasset'
+[2020.05.17-05.18.57:556][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_4" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_4.uasset" SILENT=true
+[2020.05.17-05.18.57:563][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_4BBBB11374585E02722C8EC8FA4A7C7FE.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_4.uasset'
+[2020.05.17-05.18.57:565][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_37" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_37.uasset" SILENT=true
+[2020.05.17-05.18.57:571][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_37D23C4ECC44E9188F397E5E827DB6A4CA.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_37.uasset'
+[2020.05.17-05.18.57:573][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_3" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_3.uasset" SILENT=true
+[2020.05.17-05.18.57:580][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_3458F65A8440E77BD55F2128AC928C3CC.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_3.uasset'
+[2020.05.17-05.18.57:582][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_36" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_36.uasset" SILENT=true
+[2020.05.17-05.18.57:589][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_369B5D463B449D7D280708AA9E7ED7BF66.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_36.uasset'
+[2020.05.17-05.18.57:592][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_2" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_2.uasset" SILENT=true
+[2020.05.17-05.18.57:598][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_21F40D14F422E1A5E70AFF4A785D8D768.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_2.uasset'
+[2020.05.17-05.18.57:600][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_35" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_35.uasset" SILENT=true
+[2020.05.17-05.18.57:607][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_35AE90DD26426C8A6ABA55369A8C7A0E2C.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_35.uasset'
+[2020.05.17-05.18.57:609][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_1" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_1.uasset" SILENT=true
+[2020.05.17-05.18.57:615][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_1699E48274D3DE0D947B1B5ABDED538C7.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_1.uasset'
+[2020.05.17-05.18.57:617][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_34" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_34.uasset" SILENT=true
+[2020.05.17-05.18.57:624][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_34475EC3864720692E9067378C481CE3B3.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_34.uasset'
+[2020.05.17-05.18.57:626][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_0" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_0.uasset" SILENT=true
+[2020.05.17-05.18.57:632][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_08D7D36464F05FF97622432BBEABEA8C2.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_0.uasset'
+[2020.05.17-05.18.57:635][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_33" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_33.uasset" SILENT=true
+[2020.05.17-05.18.57:641][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_333590EDFA483139C6A3F473AAED97A11C.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_33.uasset'
+[2020.05.17-05.18.57:644][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_32" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_32.uasset" SILENT=true
+[2020.05.17-05.18.57:651][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_328BBA924347374D81ED47D5B9AFFF1583.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_32.uasset'
+[2020.05.17-05.18.57:653][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_31" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_31.uasset" SILENT=true
+[2020.05.17-05.18.57:659][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_31F9306233482E8394B4B2EAB66A4710C2.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_31.uasset'
+[2020.05.17-05.18.57:661][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_30" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_30.uasset" SILENT=true
+[2020.05.17-05.18.57:670][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_30BE2776824ECB7BAEEB92CC9D9EBEEEFB.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_30.uasset'
+[2020.05.17-05.18.57:672][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_29" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_29.uasset" SILENT=true
+[2020.05.17-05.18.57:679][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_29C1BCDFCD454E41C406969884767F65C9.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_29.uasset'
+[2020.05.17-05.18.57:680][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_28" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_28.uasset" SILENT=true
+[2020.05.17-05.18.57:688][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_28EE9C24DC4059B70738AA97B9AD31042F.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_28.uasset'
+[2020.05.17-05.18.57:690][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_27" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_27.uasset" SILENT=true
+[2020.05.17-05.18.57:696][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_27D82F1FFA41932F3AA9BBB9B1133ADBC9.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_27.uasset'
+[2020.05.17-05.18.57:698][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_26" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_26.uasset" SILENT=true
+[2020.05.17-05.18.57:705][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_2647678F4B4C013D2FA1202F8835163440.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_26.uasset'
+[2020.05.17-05.18.57:707][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource.uasset" SILENT=true
+[2020.05.17-05.18.57:714][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource10387D8E42D6BFE672F39481A2FC25EB.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource.uasset'
+[2020.05.17-05.18.57:717][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewFileMediaSource_25" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_25.uasset" SILENT=true
+[2020.05.17-05.18.57:724][404]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewFileMediaSource_25D8E7D7214AA3629FD2304DB811AF24F9.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/NewFileMediaSource_25.uasset'
+[2020.05.17-05.18.57:975][404]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_24.NewFileMediaSource_24
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_23.NewFileMediaSource_23
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_22.NewFileMediaSource_22
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_21.NewFileMediaSource_21
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_20.NewFileMediaSource_20
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_19.NewFileMediaSource_19
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_18.NewFileMediaSource_18
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_17.NewFileMediaSource_17
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_16.NewFileMediaSource_16
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_49.NewFileMediaSource_49
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_15.NewFileMediaSource_15
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_48.NewFileMediaSource_48
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_14.NewFileMediaSource_14
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_47.NewFileMediaSource_47
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_13.NewFileMediaSource_13
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_46.NewFileMediaSource_46
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_12.NewFileMediaSource_12
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_45.NewFileMediaSource_45
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_11.NewFileMediaSource_11
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_44.NewFileMediaSource_44
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_10.NewFileMediaSource_10
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_43.NewFileMediaSource_43
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_9.NewFileMediaSource_9
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_42.NewFileMediaSource_42
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_8.NewFileMediaSource_8
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_41.NewFileMediaSource_41
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_7.NewFileMediaSource_7
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_40.NewFileMediaSource_40
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_6.NewFileMediaSource_6
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_39.NewFileMediaSource_39
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_5.NewFileMediaSource_5
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_38.NewFileMediaSource_38
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_4.NewFileMediaSource_4
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_37.NewFileMediaSource_37
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_3.NewFileMediaSource_3
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_36.NewFileMediaSource_36
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_2.NewFileMediaSource_2
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_35.NewFileMediaSource_35
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_1.NewFileMediaSource_1
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_34.NewFileMediaSource_34
+[2020.05.17-05.18.57:976][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_0.NewFileMediaSource_0
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_33.NewFileMediaSource_33
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_32.NewFileMediaSource_32
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_31.NewFileMediaSource_31
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_30.NewFileMediaSource_30
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_29.NewFileMediaSource_29
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_28.NewFileMediaSource_28
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_27.NewFileMediaSource_27
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_26.NewFileMediaSource_26
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource.NewFileMediaSource
+[2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_25.NewFileMediaSource_25
