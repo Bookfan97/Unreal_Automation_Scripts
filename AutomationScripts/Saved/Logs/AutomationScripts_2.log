@@ -678,3 +678,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-04.49.58:788][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/test_Auto1.uasset" SILENT=false AUTOSAVING=true
 [2020.05.17-04.49.58:811][179]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/test_Auto11973AAD942C3D875A17D0D86A2082E8C.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/test_Auto1.uasset'
 [2020.05.17-04.49.58:811][179]LogFileHelpers: Auto-saving content packages took 0.024
+[2020.05.17-04.54.21:733][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.17-04.54.21:759][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.05.17-04.54.21:781][484]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewMap1DEDED714CDACC6A2632809862EEEC9A.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/Maps/NewMap.umap'
+[2020.05.17-04.54.21:807][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2020.05.17-04.54.21:829][484]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/NewMap_BuiltData3351B9294592E1E5ED815E9B46F516F8.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/Maps/NewMap_BuiltData.uasset'
+[2020.05.17-04.54.21:846][484]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.17-04.54.21:847][484]LogContentValidation: Display: Validating World /Game/Maps/NewMap.NewMap
+[2020.05.17-04.54.21:847][484]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/NewMap_BuiltData.NewMap_BuiltData
+[2020.05.17-04.54.24:913][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/test.uasset" SILENT=true
+[2020.05.17-04.54.24:925][810]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/testAB20FAF24909200D75B6F0AC42EB210A.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/test.uasset'
+[2020.05.17-04.54.24:951][810]AssetCheck: New page: Asset Save: test
+[2020.05.17-04.54.24:951][810]LogContentValidation: Display: Validating Blueprint /Game/test.test
+[2020.05.17-04.54.39:743][760]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py"
+[2020.05.17-04.54.39:826][760]LogPython: Error: Traceback (most recent call last):
+[2020.05.17-04.54.39:826][760]LogPython: Error:   File "D:/GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py", line 8, in <module>
+[2020.05.17-04.54.39:826][760]LogPython: Error:     with open("\\prefix_mapping.json", "r") as json_file:
+[2020.05.17-04.54.39:826][760]LogPython: Error: IOError: [Errno 2] No such file or directory: '\\prefix_mapping.json'
+[2020.05.17-04.55.07:478][366]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py"
+[2020.05.17-04.55.07:479][366]LogPython: Error: Traceback (most recent call last):
+[2020.05.17-04.55.07:479][366]LogPython: Error:   File "D:/GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py", line 8, in <module>
+[2020.05.17-04.55.07:479][366]LogPython: Error:     with open(".\\prefix_mapping.json", "r") as json_file:
+[2020.05.17-04.55.07:479][366]LogPython: Error: IOError: [Errno 2] No such file or directory: '.\\prefix_mapping.json'
+[2020.05.17-04.55.32:250][131]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py"
+[2020.05.17-04.55.32:343][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.05.17-04.55.32:343][131]LogMetaData: Removing '/Game/BP_test.BP_test:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/test.PackageMetaData'
+[2020.05.17-04.55.32:344][131]LogMetaData: Removing '/Game/BP_test.SKEL_BP_test_C' ref from Metadata '/Game/test.PackageMetaData'
+[2020.05.17-04.55.32:344][131]LogMetaData: Removing '/Game/BP_test.BP_test_C' ref from Metadata '/Game/test.PackageMetaData'
+[2020.05.17-04.55.32:344][131]LogMetaData: Removing '/Game/BP_test.BP_test:EventGraph.K2Node_Event_0' ref from Metadata '/Game/test.PackageMetaData'
+[2020.05.17-04.55.32:344][131]LogMetaData: Removing '/Game/BP_test.BP_test:EventGraph.K2Node_Event_1' ref from Metadata '/Game/test.PackageMetaData'
+[2020.05.17-04.55.32:344][131]LogMetaData: Removing '/Game/BP_test.BP_test:EventGraph.K2Node_Event_2' ref from Metadata '/Game/test.PackageMetaData'
+[2020.05.17-04.55.32:395][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_test" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/BP_test.uasset" SILENT=true
+[2020.05.17-04.55.32:407][131]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/BP_test8157FF3744349BB7CE639887375B586D.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/BP_test.uasset'
+[2020.05.17-04.55.32:584][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.05.17-04.55.32:626][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.05.17-04.55.32:650][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.17-04.55.32:672][131]LogPython: Prefixed test of type Blueprint with BP_
+[2020.05.17-04.55.32:672][131]LogPython: Prefixed 1 of 1 assets
+[2020.05.17-04.55.32:680][131]AssetCheck: New page: Asset Save: BP_test
+[2020.05.17-04.55.32:680][131]LogContentValidation: Display: Validating Blueprint /Game/BP_test.BP_test
+[2020.05.17-04.55.40:740][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.05.17-04.57.01:859][655]Cmd: py "D:/GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py"
+[2020.05.17-04.57.01:861][655]LogPython: Prefixed 0 of 0 assets
+[2020.05.17-04.57.18:207][469]Cmd: py "D:/GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py"
+[2020.05.17-04.57.18:208][469]LogPython: Warning: No mapping for asset NewMap of type World
+[2020.05.17-04.57.18:208][469]LogPython: Prefixed 0 of 1 assets
+[2020.05.17-04.57.45:343][428]Cmd: py "D:/GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/prefixer.py"
+[2020.05.17-04.57.45:460][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_test2" FILE="../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2.uasset" SILENT=true
+[2020.05.17-04.57.45:482][428]LogSavePackage: Moving '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Saved/M_test233BB4EB54342E473F9164DB30C142EF2.tmp' to '../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Content/M_test2.uasset'
+[2020.05.17-04.57.45:689][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.05.17-04.57.45:731][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.05.17-04.57.45:757][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.05.17-04.57.45:780][428]LogPython: Prefixed test2 of type Material with M_
+[2020.05.17-04.57.45:780][428]LogPython: Prefixed 1 of 1 assets
+[2020.05.17-04.57.45:785][428]AssetCheck: New page: Asset Save: M_test2
+[2020.05.17-04.57.45:785][428]LogContentValidation: Display: Validating Material /Game/M_test2.M_test2
