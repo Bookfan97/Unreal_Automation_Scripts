@@ -31,8 +31,8 @@
 /wd4838
 /we4668
 /I .
-/I E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Inc\AutomationScripts
-/I E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source
+/I D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Inc\AutomationScripts
+/I D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -253,18 +253,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\Github\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\AutomationScriptsGameModeBase.cpp"
-/FI"E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\Definitions.AutomationScripts.h"
-/Fo"E:\Github\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\AutomationScriptsGameModeBase.cpp.obj"
+/FI"D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\AutomationScriptsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Source\AutomationScripts\AutomationScriptsGameModeBase.cpp"
+/FI"D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\Definitions.AutomationScripts.h"
+/Fo"D:\GitHub\Unreal_Automation_Scripts\AutomationScripts\Intermediate\Build\Win64\UE4Editor\Development\AutomationScripts\AutomationScriptsGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "AutomationScripts",
-			"Path": "E:\\Github\\Unreal_Automation_Scripts\\AutomationScripts\\Source\\AutomationScripts.Target.cs",
+			"Path": "D:\\GitHub\\Unreal_Automation_Scripts\\AutomationScripts\\Source\\AutomationScripts.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "AutomationScriptsEditor",
-			"Path": "E:\\Github\\Unreal_Automation_Scripts\\AutomationScripts\\Source\\AutomationScriptsEditor.Target.cs",
+			"Path": "D:\\GitHub\\Unreal_Automation_Scripts\\AutomationScripts\\Source\\AutomationScriptsEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
