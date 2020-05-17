@@ -619,3 +619,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-18.36.45:292][192]LogPython: Error:   File "D:/GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/rename_assets_gui.py", line 5, in <module>
 [2020.05.17-18.36.45:292][192]LogPython: Error:     from PySide import QtCore, QtGui, QtUiTools
 [2020.05.17-18.36.45:292][192]LogPython: Error: ImportError: No module named PySide
+[2020.05.17-19.13.03:240][949]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/delete_empty_folders.py"
+[2020.05.17-19.13.03:249][949]LogPython: Deleted 0 folders without assets
