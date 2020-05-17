@@ -1240,3 +1240,260 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_26.NewFileMediaSource_26
 [2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource.NewFileMediaSource
 [2020.05.17-05.18.57:977][404]LogContentValidation: Display: Validating FileMediaSource /Game/NewFileMediaSource_25.NewFileMediaSource_25
+[2020.05.17-05.26.16:937][745]Cmd: py "../../../../GitHub/Unreal_Automation_Scripts/AutomationScripts/Python Scripts/remove_unused.py"
+[2020.05.17-05.26.17:038][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource.NewFileMediaSource
+[2020.05.17-05.26.17:728][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.05.17-05.26.17:760][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.05.17-05.26.17:787][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.17-05.26.17:896][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_0.NewFileMediaSource_0
+[2020.05.17-05.26.18:177][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.05.17-05.26.18:208][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.05.17-05.26.18:236][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.05.17-05.26.18:337][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_1.NewFileMediaSource_1
+[2020.05.17-05.26.18:601][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.05.17-05.26.18:631][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.05.17-05.26.18:657][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.05.17-05.26.18:763][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_2.NewFileMediaSource_2
+[2020.05.17-05.26.19:041][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.05.17-05.26.19:075][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.05.17-05.26.19:106][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.05.17-05.26.19:207][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_3.NewFileMediaSource_3
+[2020.05.17-05.26.19:496][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.05.17-05.26.19:529][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.05.17-05.26.19:555][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.05.17-05.26.19:661][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_4.NewFileMediaSource_4
+[2020.05.17-05.26.19:937][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.05.17-05.26.19:967][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.05.17-05.26.19:995][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.05.17-05.26.20:096][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_5.NewFileMediaSource_5
+[2020.05.17-05.26.20:385][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.05.17-05.26.20:412][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.05.17-05.26.20:439][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.05.17-05.26.20:547][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_6.NewFileMediaSource_6
+[2020.05.17-05.26.20:822][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.05.17-05.26.20:852][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.05.17-05.26.20:879][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.17-05.26.20:982][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_7.NewFileMediaSource_7
+[2020.05.17-05.26.21:258][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.05.17-05.26.21:289][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.05.17-05.26.21:316][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.05.17-05.26.21:417][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_8.NewFileMediaSource_8
+[2020.05.17-05.26.21:685][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.05.17-05.26.21:715][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.05.17-05.26.21:743][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.05.17-05.26.21:849][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_9.NewFileMediaSource_9
+[2020.05.17-05.26.22:114][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.05.17-05.26.22:141][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.05.17-05.26.22:171][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.05.17-05.26.22:284][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_10.NewFileMediaSource_10
+[2020.05.17-05.26.22:556][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.05.17-05.26.22:586][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.05.17-05.26.22:618][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.05.17-05.26.22:721][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_11.NewFileMediaSource_11
+[2020.05.17-05.26.23:001][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.05.17-05.26.23:030][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.05.17-05.26.23:057][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.17-05.26.23:163][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_12.NewFileMediaSource_12
+[2020.05.17-05.26.23:445][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.05.17-05.26.23:472][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.05.17-05.26.23:501][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.05.17-05.26.23:608][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_13.NewFileMediaSource_13
+[2020.05.17-05.26.23:888][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.05.17-05.26.23:921][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.05.17-05.26.23:950][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.05.17-05.26.24:055][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_14.NewFileMediaSource_14
+[2020.05.17-05.26.24:352][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.05.17-05.26.24:382][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.05.17-05.26.24:411][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.17-05.26.24:505][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_15.NewFileMediaSource_15
+[2020.05.17-05.26.24:782][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.05.17-05.26.24:811][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.05.17-05.26.24:838][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.05.17-05.26.24:944][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_16.NewFileMediaSource_16
+[2020.05.17-05.26.25:218][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.05.17-05.26.25:247][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.05.17-05.26.25:277][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.05.17-05.26.25:384][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_17.NewFileMediaSource_17
+[2020.05.17-05.26.25:654][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.05.17-05.26.25:686][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.05.17-05.26.25:712][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.17-05.26.25:816][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_18.NewFileMediaSource_18
+[2020.05.17-05.26.26:100][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.05.17-05.26.26:126][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.05.17-05.26.26:153][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.05.17-05.26.26:257][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_19.NewFileMediaSource_19
+[2020.05.17-05.26.26:543][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.05.17-05.26.26:571][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.05.17-05.26.26:601][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.05.17-05.26.26:717][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_20.NewFileMediaSource_20
+[2020.05.17-05.26.26:983][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.05.17-05.26.27:011][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.05.17-05.26.27:040][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.05.17-05.26.27:144][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_21.NewFileMediaSource_21
+[2020.05.17-05.26.27:421][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.05.17-05.26.27:453][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.05.17-05.26.27:482][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.05.17-05.26.27:586][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_22.NewFileMediaSource_22
+[2020.05.17-05.26.27:865][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.05.17-05.26.27:893][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.05.17-05.26.27:921][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.17-05.26.28:032][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_23.NewFileMediaSource_23
+[2020.05.17-05.26.28:296][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.05.17-05.26.28:322][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.17-05.26.28:351][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.05.17-05.26.28:462][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_24.NewFileMediaSource_24
+[2020.05.17-05.26.28:734][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.17-05.26.28:767][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.05.17-05.26.28:796][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.05.17-05.26.28:895][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_25.NewFileMediaSource_25
+[2020.05.17-05.26.29:164][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.05.17-05.26.29:195][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.05.17-05.26.29:226][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.05.17-05.26.29:321][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_26.NewFileMediaSource_26
+[2020.05.17-05.26.29:613][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.05.17-05.26.29:640][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.05.17-05.26.29:669][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.17-05.26.29:782][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_27.NewFileMediaSource_27
+[2020.05.17-05.26.30:052][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.05.17-05.26.30:081][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.05.17-05.26.30:109][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.05.17-05.26.30:213][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_28.NewFileMediaSource_28
+[2020.05.17-05.26.30:498][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.05.17-05.26.30:530][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.17-05.26.30:559][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.17-05.26.30:661][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_29.NewFileMediaSource_29
+[2020.05.17-05.26.30:938][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.05.17-05.26.30:965][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.05.17-05.26.30:991][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.05.17-05.26.31:093][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_30.NewFileMediaSource_30
+[2020.05.17-05.26.31:370][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.05.17-05.26.31:403][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.05.17-05.26.31:432][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.05.17-05.26.31:534][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_31.NewFileMediaSource_31
+[2020.05.17-05.26.31:814][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.05.17-05.26.31:842][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.05.17-05.26.31:870][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.26.31:972][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_32.NewFileMediaSource_32
+[2020.05.17-05.26.32:249][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.05.17-05.26.32:282][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.05.17-05.26.32:310][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.05.17-05.26.32:431][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_33.NewFileMediaSource_33
+[2020.05.17-05.26.32:697][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.05.17-05.26.32:722][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.05.17-05.26.32:749][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.05.17-05.26.32:856][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_34.NewFileMediaSource_34
+[2020.05.17-05.26.33:135][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.05.17-05.26.33:166][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.05.17-05.26.33:191][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.05.17-05.26.33:296][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_35.NewFileMediaSource_35
+[2020.05.17-05.26.33:570][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.05.17-05.26.33:598][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.05.17-05.26.33:623][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.17-05.26.33:727][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_36.NewFileMediaSource_36
+[2020.05.17-05.26.34:001][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.05.17-05.26.34:031][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.05.17-05.26.34:061][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.05.17-05.26.34:168][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_37.NewFileMediaSource_37
+[2020.05.17-05.26.34:458][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.05.17-05.26.34:488][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.05.17-05.26.34:515][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.17-05.26.34:616][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_38.NewFileMediaSource_38
+[2020.05.17-05.26.34:883][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.05.17-05.26.34:910][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.05.17-05.26.34:938][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.05.17-05.26.35:040][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_39.NewFileMediaSource_39
+[2020.05.17-05.26.35:318][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.05.17-05.26.35:345][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.05.17-05.26.35:375][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.17-05.26.35:492][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_40.NewFileMediaSource_40
+[2020.05.17-05.26.35:766][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.05.17-05.26.35:795][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.05.17-05.26.35:819][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.05.17-05.26.35:920][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_41.NewFileMediaSource_41
+[2020.05.17-05.26.36:193][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.05.17-05.26.36:221][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.05.17-05.26.36:248][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.17-05.26.36:358][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_42.NewFileMediaSource_42
+[2020.05.17-05.26.36:631][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.05.17-05.26.36:659][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.05.17-05.26.36:686][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.05.17-05.26.36:795][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_43.NewFileMediaSource_43
+[2020.05.17-05.26.37:055][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.05.17-05.26.37:083][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.05.17-05.26.37:110][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.05.17-05.26.37:209][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_44.NewFileMediaSource_44
+[2020.05.17-05.26.37:482][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.05.17-05.26.37:513][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.05.17-05.26.37:538][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.05.17-05.26.37:636][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_45.NewFileMediaSource_45
+[2020.05.17-05.26.37:914][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.05.17-05.26.37:943][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.05.17-05.26.37:970][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.17-05.26.38:076][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_46.NewFileMediaSource_46
+[2020.05.17-05.26.38:363][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.05.17-05.26.38:390][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.05.17-05.26.38:417][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.05.17-05.26.38:518][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_47.NewFileMediaSource_47
+[2020.05.17-05.26.38:793][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.05.17-05.26.38:822][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.05.17-05.26.38:852][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.05.17-05.26.38:954][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_48.NewFileMediaSource_48
+[2020.05.17-05.26.39:231][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.05.17-05.26.39:262][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.05.17-05.26.39:292][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.05.17-05.26.39:398][745]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/NewFileMediaSource_49.NewFileMediaSource_49
+[2020.05.17-05.26.39:670][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.05.17-05.26.39:697][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.05.17-05.26.39:724][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.17-05.26.39:733][745]LogPython: 51 of 51 to be deleted assets, of 51 selected, removed
