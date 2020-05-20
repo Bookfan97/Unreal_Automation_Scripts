@@ -699,3 +699,15 @@ Purging the undo buffer...
 [2020.05.20-03.35.10:612][731]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/AssetAction4399FEAF451D2185488A8E96FA44A453.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset'
 [2020.05.20-03.35.10:622][731]AssetCheck: New page: Asset Save: AssetAction
 [2020.05.20-03.35.10:622][731]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/AssetAction.AssetAction
+[2020.05.20-03.35.56:807][471]LogEditorTransaction: Undo Rename Node
+[2020.05.20-03.37.15:254][678]LogSlate: Took 0.004273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.05.20-03.40.02:177][858]LogEditorTransaction: Undo Create Pin Link
+[2020.05.20-03.40.35:793][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.05.20-03.40.35:807][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AssetAction" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset" SILENT=true
+[2020.05.20-03.40.35:847][297]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/AssetActionF975A5DD466B7F053A7F028252BF1160.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset'
+[2020.05.20-03.40.35:858][297]AssetCheck: New page: Asset Save: AssetAction
+[2020.05.20-03.40.35:859][297]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/AssetAction.AssetAction
+[2020.05.20-03.40.53:101][347]BlueprintLog: New page: Compile AssetAction
+[2020.05.20-03.40.53:142][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.05.20-03.45.18:410][900]BlueprintLog: New page: Compile AssetAction
+[2020.05.20-03.45.18:457][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
