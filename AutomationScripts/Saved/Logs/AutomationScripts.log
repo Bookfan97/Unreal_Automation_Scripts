@@ -997,3 +997,26 @@ Make sure 'Cleanup_C' has been compiled for  Get StaticMesh_PathName
 [2020.08.24-23.51.06:749][918]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupBFD4C1534BD37638B9DE38AA84A39E17.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
 [2020.08.24-23.51.06:765][918]AssetCheck: New page: Asset Save: Cleanup
 [2020.08.24-23.51.06:765][918]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.53.09:127][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.53.09:154][234]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup93A5E8764474A8A2F42CDDA29D91B0BC.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.53.09:172][234]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.53.09:173][234]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.54.30:054][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.54.30:079][652]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup0921C4D64DE153FC5317A69515234E8A.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.54.30:095][652]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.54.30:095][652]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.56.02:560][320]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.08.24-23.56.02:561][320]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.041
+[2020.08.24-23.56.02:562][320]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cleanup] ([1] browsable assets)...
+[2020.08.24-23.56.02:562][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cleanup]
+[2020.08.24-23.56.02:562][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/Cleanup_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.08.24-23.56.02:586][320]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Auto4222F096343B3D8CF240931BC08506FEE.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/Cleanup_Auto4.uasset'
+[2020.08.24-23.56.02:587][320]LogFileHelpers: Auto-saving content packages took 0.025
+[2020.08.24-23.56.06:775][814]BlueprintLog: New page: Compile Cleanup
+[2020.08.24-23.56.06:822][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.08.24-23.58.19:115][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.58.19:146][556]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupBA9D7A3B4148104F70FBFF83E443C44A.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.58.19:162][556]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.58.19:162][556]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.58.19:583][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.08.24-23.58.21:885][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
