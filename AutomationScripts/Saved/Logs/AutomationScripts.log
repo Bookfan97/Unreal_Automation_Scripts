@@ -695,3 +695,102 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.24-22.49.30:051][552]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/AssetAction.AssetAction
 [2020.08.24-22.51.00:742][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
 [2020.08.24-22.51.02:227][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.24-22.51.29:504][528]BlueprintLog: New page: Compile AssetAction
+[2020.08.24-22.51.29:557][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.08.24-22.51.30:556][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AssetAction" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset" SILENT=true
+[2020.08.24-22.51.30:615][625]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/AssetActionB3E9FC944D18020EF6EE44AA74D39200.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset'
+[2020.08.24-22.51.30:626][625]AssetCheck: New page: Asset Save: AssetAction
+[2020.08.24-22.51.30:626][625]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/AssetAction.AssetAction
+[2020.08.24-22.51.55:113][261]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-22.51.57:391][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup_Widget" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset" SILENT=true
+[2020.08.24-22.51.57:398][423]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Widget1C71B16F450743D31FA86E8C79F8EF15.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset'
+[2020.08.24-22.51.57:412][423]AssetCheck: New page: Asset Save: Cleanup_Widget
+[2020.08.24-22.51.57:412][423]LogContentValidation: Display: Validating WidgetBlueprint /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-22.52.18:112][234]LogSlate: Took 0.007062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.08.24-22.54.01:789][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup_Widget" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset" SILENT=true
+[2020.08.24-22.54.01:805][ 78]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Widget02A5CE7A47BFBCD35A45C4B1C8871441.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset'
+[2020.08.24-22.54.01:820][ 78]AssetCheck: New page: Asset Save: Cleanup_Widget
+[2020.08.24-22.54.01:820][ 78]LogContentValidation: Display: Validating WidgetBlueprint /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-22.55.22:974][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup_Widget" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset" SILENT=true
+[2020.08.24-22.55.22:983][651]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Widget3A99CF0342C05EFC8C18C18296B842F1.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset'
+[2020.08.24-22.55.22:996][651]AssetCheck: New page: Asset Save: Cleanup_Widget
+[2020.08.24-22.55.22:996][651]LogContentValidation: Display: Validating WidgetBlueprint /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-22.55.25:938][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup_Widget" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset" SILENT=true
+[2020.08.24-22.55.25:946][  0]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Widget4B33B5EC42D95387A11FDA9DD22B5491.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset'
+[2020.08.24-22.55.25:960][  0]AssetCheck: New page: Asset Save: Cleanup_Widget
+[2020.08.24-22.55.25:960][  0]LogContentValidation: Display: Validating WidgetBlueprint /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-22.57.19:269][317]BlueprintLog: New page: Compile Cleanup_Widget
+[2020.08.24-22.57.19:509][317]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.08.24-22.59.08:790][499]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.08.24-22.59.08:791][499]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.039
+[2020.08.24-22.59.08:791][499]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cleanup_Widget] ([1] browsable assets)...
+[2020.08.24-22.59.08:791][499]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cleanup_Widget]
+[2020.08.24-22.59.08:791][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup_Widget" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/Cleanup_Widget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.08.24-22.59.08:804][499]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Widget_Auto1E206DF814E1A8F32E14AF093A0BE9EF4.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/Cleanup_Widget_Auto1.uasset'
+[2020.08.24-22.59.08:805][499]LogFileHelpers: Auto-saving content packages took 0.013
+[2020.08.24-22.59.22:416][297]BlueprintLog: New page: Compile Cleanup_Widget
+[2020.08.24-22.59.22:459][297]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.08.24-22.59.52:756][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.08.24-22.59.52:784][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AssetAction" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset" SILENT=true
+[2020.08.24-22.59.52:845][128]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/AssetAction7592BC834E84161EDBD750A9BC5F12F4.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset'
+[2020.08.24-22.59.52:846][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup_Widget" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset" SILENT=true
+[2020.08.24-22.59.52:855][128]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Widget646D9B004757B9260B62CD971D5E47A1.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset'
+[2020.08.24-22.59.52:874][128]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.24-22.59.52:874][128]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/AssetAction.AssetAction
+[2020.08.24-22.59.52:874][128]LogContentValidation: Display: Validating WidgetBlueprint /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-23.03.52:540][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup_Widget" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset" SILENT=true
+[2020.08.24-23.03.52:552][124]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup_Widget4AF2311348FE731392951C9F1B415914.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup_Widget.uasset'
+[2020.08.24-23.03.52:565][124]AssetCheck: New page: Asset Save: Cleanup_Widget
+[2020.08.24-23.03.52:565][124]LogContentValidation: Display: Validating WidgetBlueprint /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-23.11.50:483][603]LogEditorTransaction: Undo Move Node
+[2020.08.24-23.11.51:042][639]LogEditorTransaction: Undo Move Node
+[2020.08.24-23.11.51:411][682]LogEditorTransaction: Undo Move Node
+[2020.08.24-23.11.51:749][721]LogEditorTransaction: Undo Create Pin Link
+[2020.08.24-23.11.52:068][756]LogEditorTransaction: Undo Create Pin Link
+[2020.08.24-23.11.52:387][793]LogEditorTransaction: Undo Create Pin Link
+[2020.08.24-23.11.52:665][825]LogEditorTransaction: Undo Move Node
+[2020.08.24-23.11.53:048][869]LogEditorTransaction: Undo Move Node
+[2020.08.24-23.11.53:401][910]LogEditorTransaction: Undo Move Node
+[2020.08.24-23.11.53:771][953]LogEditorTransaction: Undo Add Node
+[2020.08.24-23.12.35:959][977]BlueprintLog: New page: Compile Cleanup_Widget
+[2020.08.24-23.12.35:961][977]LogBlueprint: Error: [Compiler Cleanup_Widget] Cannot use the editor function "SetFolderPath" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.08.24-23.12.35:961][977]LogBlueprint: Error: [Compiler Cleanup_Widget] Cannot use the editor function "GetAllLevelActors" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.08.24-23.12.36:004][977]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.08.24-23.12.59:717][423]BlueprintLog: New page: Compile Cleanup_Widget
+[2020.08.24-23.12.59:719][423]LogBlueprint: Error: [Compiler Cleanup_Widget] Cannot use the editor function "ByClass" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.08.24-23.12.59:719][423]LogBlueprint: Error: [Compiler Cleanup_Widget] Cannot use the editor function "SetFolderPath" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.08.24-23.12.59:719][423]LogBlueprint: Error: [Compiler Cleanup_Widget] Cannot use the editor function "GetAllLevelActors" in this runtime Blueprint. Only for use in Editor Utility Blueprints and Blutilities.
+[2020.08.24-23.12.59:762][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.08.24-23.13.28:153][624]LogAssetEditorSubsystem: Opening Asset editor for EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.14.01:739][556]LogEditorTransaction: Undo Remove Widget
+[2020.08.24-23.14.15:117][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.14.15:129][101]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupD109EC6A4828ED44A17670A1DCA5AD48.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.14.15:144][101]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.14.15:144][101]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.14.16:797][297]BlueprintLog: New page: Compile Cleanup
+[2020.08.24-23.14.16:800][297]LogBlueprint: Warning: [Compiler Cleanup] Could not find a variable named "StaticMesh_PathName" in 'Cleanup_C'.
+Make sure 'Cleanup_C' has been compiled for  Get StaticMesh_PathName
+[2020.08.24-23.14.16:800][297]LogBlueprint: Error: [Compiler Cleanup] The property associated with  Static Mesh Path Name  could not be found in '/Game/Cleanup.Cleanup_C'
+[2020.08.24-23.14.17:006][297]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.08.24-23.14.30:809][910]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.08.24-23.14.32:285][910]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.24-23.14.34:232][910]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.08.24-23.14.34:232][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.24-23.14.34:245][910]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.08.24-23.14.34:245][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.24-23.14.34:279][910]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Cleanup_Widget.Cleanup_Widget
+[2020.08.24-23.14.35:779][910]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.08.24-23.14.35:816][910]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.08.24-23.14.35:852][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.08.24-23.15.05:222][361]BlueprintLog: New page: Compile Cleanup
+[2020.08.24-23.15.05:262][361]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.08.24-23.16.18:196][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AssetAction" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset" SILENT=true
+[2020.08.24-23.16.18:258][543]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/AssetActionB4E993A64408972F58EAADB90B64567B.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/AssetAction.uasset'
+[2020.08.24-23.16.18:260][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.16.18:275][543]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupBF9BBB9C40B9845CD2C5469714DEE90A.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.16.18:295][543]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.24-23.16.18:295][543]LogContentValidation: Display: Validating EditorUtilityBlueprint /Game/AssetAction.AssetAction
+[2020.08.24-23.16.18:295][543]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.16.26:742][555]LogSlate: Window 'Cleanup' being destroyed
+[2020.08.24-23.16.26:748][555]LogSlate: Window 'Cleanup' being destroyed
