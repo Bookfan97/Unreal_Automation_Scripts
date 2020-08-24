@@ -957,3 +957,43 @@ Make sure 'Cleanup_C' has been compiled for  Get StaticMesh_PathName
 [2020.08.24-23.42.33:749][148]BlueprintLog: New page: Compile Cleanup
 [2020.08.24-23.42.33:952][148]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
 [2020.08.24-23.44.04:129][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.08.24-23.44.30:922][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.24-23.44.30:954][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.08.24-23.44.30:970][336]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled0C2321D44A8C9E9396FE8B9770F9F75C.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap'
+[2020.08.24-23.44.30:992][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled_BuiltData.uasset" SILENT=true
+[2020.08.24-23.44.31:007][336]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled_BuiltData57811F5D40CF7F023CCDB9B11BC6D24C.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled_BuiltData.uasset'
+[2020.08.24-23.44.31:028][336]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.24-23.44.31:028][336]LogContentValidation: Display: Validating World /Game/Untitled.Untitled
+[2020.08.24-23.44.31:028][336]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Untitled_BuiltData.Untitled_BuiltData
+[2020.08.24-23.45.02:572][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.45.02:593][840]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup6AA03EC34E62609B066706B7893C2BEC.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.45.02:609][840]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.45.02:609][840]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.45.17:346][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.45.17:366][160]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup9616A7FF4DA670665BCD65B2E1799612.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.45.17:383][160]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.45.17:383][160]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.47.00:200][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.47.00:227][876]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup38263FE4466842FF94E436B59121E5CA.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.47.00:245][876]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.47.00:245][876]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.47.04:330][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.47.04:352][357]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup890028F14E2D968EBAE5EB90C04A5303.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.47.04:369][357]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.47.04:369][357]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.47.18:721][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.47.18:743][ 69]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup835CEB274C84C47629EF089B6DAFDA16.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.47.18:761][ 69]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.47.18:761][ 69]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.47.43:562][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.47.43:585][722]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupFD0298F1471650FD81B1B6B3D5895C88.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.47.43:601][722]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.47.43:601][722]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.50.46:123][566]BlueprintLog: New page: Compile Cleanup
+[2020.08.24-23.50.46:347][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.08.24-23.51.05:294][765]BlueprintLog: New page: Compile Cleanup
+[2020.08.24-23.51.05:342][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.08.24-23.51.06:726][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.51.06:749][918]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupBFD4C1534BD37638B9DE38AA84A39E17.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.51.06:765][918]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.51.06:765][918]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
