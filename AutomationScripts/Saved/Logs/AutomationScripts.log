@@ -794,3 +794,46 @@ Make sure 'Cleanup_C' has been compiled for  Get StaticMesh_PathName
 [2020.08.24-23.16.18:295][543]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
 [2020.08.24-23.16.26:742][555]LogSlate: Window 'Cleanup' being destroyed
 [2020.08.24-23.16.26:748][555]LogSlate: Window 'Cleanup' being destroyed
+[2020.08.24-23.18.01:276][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.18.01:293][516]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupCB789363495F93552B963ABE9386BC1D.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.18.01:306][516]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.18.01:306][516]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.18.26:796][547]BlueprintLog: New page: Compile Cleanup
+[2020.08.24-23.18.27:000][547]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.08.24-23.18.55:739][481]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.08.24-23.20.52:072][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.08.24-23.20.52:137][369]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.24-23.20.53:491][369]LogSlate: Window 'Save Level As' being destroyed
+[2020.08.24-23.20.53:977][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.20.53:991][423]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupB34C4497409010B4BAAA11A435481068.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.20.54:005][423]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.20.54:005][423]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.20.55:905][644]BlueprintLog: New page: Compile Cleanup
+[2020.08.24-23.20.55:948][644]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.08.24-23.21.21:563][669]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.08.24-23.21.21:564][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.08.24-23.21.21:575][669]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled_1_Auto2E602887848ED292E8BBD99B09169C98D.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2020.08.24-23.21.21:581][669]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.057
+[2020.08.24-23.21.21:581][669]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.057
+[2020.08.24-23.21.55:199][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cleanup" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset" SILENT=true
+[2020.08.24-23.21.55:219][579]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Cleanup6CE14B194FD1E4E86DE59389D5DE4CA0.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
+[2020.08.24-23.21.55:232][579]AssetCheck: New page: Asset Save: Cleanup
+[2020.08.24-23.21.55:232][579]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.24-23.22.02:026][183]LogSlate: Window 'Save Level As' being destroyed
+[2020.08.24-23.22.03:121][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.08.24-23.22.04:818][307]LogSlate: Window 'Save Content' being destroyed
+[2020.08.24-23.22.06:236][307]LogSlate: Window 'Save Level As' being destroyed
+[2020.08.24-23.22.06:246][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.24-23.22.06:283][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.08.24-23.22.06:295][307]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled30DDFFFD4734712FAE2A469AE4E608C7.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap'
+[2020.08.24-23.22.06:313][307]LogFileHelpers: Saving map 'Untitled' took 0.070
+[2020.08.24-23.22.06:324][307]AssetCheck: New page: Asset Save: Untitled
+[2020.08.24-23.22.06:324][307]LogContentValidation: Display: Validating World /Game/Untitled.Untitled
+[2020.08.24-23.22.07:577][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.24-23.22.07:615][454]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.08.24-23.22.07:630][454]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled8686FB594F1833CA942823B68DA4C81F.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled.umap'
+[2020.08.24-23.22.07:649][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled_BuiltData.uasset" SILENT=true
+[2020.08.24-23.22.07:681][454]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Untitled_BuiltDataD5D166684F86D610E7BD43A2AC399AD0.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Untitled_BuiltData.uasset'
+[2020.08.24-23.22.07:707][454]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.24-23.22.07:707][454]LogContentValidation: Display: Validating World /Game/Untitled.Untitled
+[2020.08.24-23.22.07:707][454]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Untitled_BuiltData.Untitled_BuiltData
