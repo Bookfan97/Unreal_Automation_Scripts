@@ -920,3 +920,39 @@ Make sure 'Cleanup_C' has been compiled for  Get temp_ActorObject
 [2020.08.25-00.49.23:523][551]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/CleanupE9BA35A6460F270CDF391A9D2C240EBC.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/Cleanup.uasset'
 [2020.08.25-00.49.23:537][551]AssetCheck: New page: Asset Save: Cleanup
 [2020.08.25-00.49.23:537][551]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Cleanup.Cleanup
+[2020.08.25-00.53.42:830][162]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.08.25-00.58.12:363][279]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActorActionUtility.ActorActionUtility
+[2020.08.25-00.58.16:903][546]LogSlate: Window 'ActorActionUtility' being destroyed
+[2020.08.25-00.58.36:111][286]LogEditorTransaction: Undo Add New Function
+[2020.08.25-00.58.43:397][941]LogEditorTransaction: Undo Add New Function
+[2020.08.25-00.58.57:491][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActorActionUtility" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/ActorActionUtility.uasset" SILENT=true
+[2020.08.25-00.58.57:497][586]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/ActorActionUtility275DD8A247E23851C5AE6BB758CEDC8C.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/ActorActionUtility.uasset'
+[2020.08.25-00.58.57:511][586]AssetCheck: New page: Asset Save: ActorActionUtility
+[2020.08.25-00.58.57:511][586]LogContentValidation: Display: Validating Blueprint /Game/ActorActionUtility.ActorActionUtility
+[2020.08.25-00.59.36:825][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActorActionUtility" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/ActorActionUtility.uasset" SILENT=true
+[2020.08.25-00.59.36:839][828]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/ActorActionUtilityC242F9974C184DC3340337934156EF97.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/ActorActionUtility.uasset'
+[2020.08.25-00.59.36:857][828]AssetCheck: New page: Asset Save: ActorActionUtility
+[2020.08.25-00.59.36:857][828]LogContentValidation: Display: Validating Blueprint /Game/ActorActionUtility.ActorActionUtility
+[2020.08.25-00.59.53:998][601]LogEditorTransaction: Undo Add Node
+[2020.08.25-01.00.43:711][  1]BlueprintLog: New page: Compile ActorActionUtility
+[2020.08.25-01.00.43:753][  1]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.08.25-01.00.52:668][ 62]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.08.25-01.01.21:777][383]BlueprintLog: New page: Compile ActorActionUtility
+[2020.08.25-01.01.21:816][383]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.08.25-01.04.06:068][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.08.25-01.04.06:068][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.037
+[2020.08.25-01.04.06:069][626]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ActorActionUtility] ([1] browsable assets)...
+[2020.08.25-01.04.06:069][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/ActorActionUtility]
+[2020.08.25-01.04.06:069][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActorActionUtility" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/ActorActionUtility_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.08.25-01.04.06:079][626]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/ActorActionUtility_Auto25FE1E50146156FBD8486A3A5A3676CE6.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/Autosaves/Game/ActorActionUtility_Auto2.uasset'
+[2020.08.25-01.04.06:080][626]LogFileHelpers: Auto-saving content packages took 0.012
+[2020.08.25-01.05.06:090][ 55]BlueprintLog: New page: Compile ActorActionUtility
+[2020.08.25-01.05.06:129][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.08.25-01.05.21:636][285]BlueprintLog: New page: Compile ActorActionUtility
+[2020.08.25-01.05.21:679][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.08.25-01.06.04:564][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.08.25-01.06.05:960][ 68]LogSlate: Window 'Save Content' being destroyed
+[2020.08.25-01.06.05:984][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActorActionUtility" FILE="E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/ActorActionUtility.uasset" SILENT=true
+[2020.08.25-01.06.06:001][ 68]LogSavePackage: Moving 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Saved/ActorActionUtility41CC7FFD4C39B6272E0C4CBC67946206.tmp' to 'E:/Github/Unreal_Automation_Scripts/AutomationScripts/Content/ActorActionUtility.uasset'
+[2020.08.25-01.06.06:015][ 68]AssetCheck: New page: Asset Save: ActorActionUtility
+[2020.08.25-01.06.06:015][ 68]LogContentValidation: Display: Validating Blueprint /Game/ActorActionUtility.ActorActionUtility
